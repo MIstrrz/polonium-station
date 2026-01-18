@@ -53,7 +53,10 @@
 # SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 ThatOneMoon <juozas.dringelis@gmail.com>
 # SPDX-FileCopyrightText: 2026 Zergologist <114537969+Chedd-Error@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 zergologist <114537969+Chedd-Error@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -487,6 +490,7 @@
   - SecurityJobTrinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+  - LoadoutSecurityOfficerWeapon
 
 # Polonium
 - type: roleLoadout
