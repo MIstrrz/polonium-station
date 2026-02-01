@@ -526,6 +526,8 @@
     - TowelColorWhite #funk towel
     - InflatableWall #funky inflatables
     - InflatableDoor #funk
+    - PowerCellMediumSingle #funk
+    - PowerCellHighSingle #funk
     - SmallPinboard #funky
     - BarberScissors #funk
     - HydroponicsToolMiniHoe  #Mira Sector (Convert all of the static recipes to static packs please ;_;)
@@ -740,6 +742,7 @@
     - LightImplanter
     - BikeHornImplanter
     - PlantScanCartridge # Mira Sector - Plants Analyzer Cartridge
+    - PowerCellHyperSingle #funk
     - CassetteTapeHyper #funk
   - type: EmagLatheRecipes
     emagDynamicRecipes:
