@@ -208,6 +208,7 @@
 # SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 # SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
+# SPDX-FileCopyrightText: 2026 AftrLite <61218133+AftrLite@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 ThatOneMoon <91613003+ThatOneMoon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 W.xyz() <tptechteam@gmail.com>
 # SPDX-FileCopyrightText: 2026 Xcybitt <197952719+Xcybitt@users.noreply.github.com>
@@ -533,6 +534,7 @@
     - HydroponicsToolSpade    #Mira Sector
     - HydroponicsToolClippers #Mira Sector
     - PlantAnalyzer           #Mira Sector
+    - CassetteTapeHigh #funk
     dynamicRecipes:
     - BoomboxRed
     - BoomboxGreen
@@ -738,6 +740,7 @@
     - LightImplanter
     - BikeHornImplanter
     - PlantScanCartridge # Mira Sector - Plants Analyzer Cartridge
+    - CassetteTapeHyper #funk
   - type: EmagLatheRecipes
     emagDynamicRecipes:
     - BoxBeanbag
