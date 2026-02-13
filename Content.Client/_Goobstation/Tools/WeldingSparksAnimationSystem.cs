@@ -1,5 +1,6 @@
 // SPDX-FileCopyrightText: 2025 MaiaArai <158123176+YaraaraY@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2026 SabreML <57483089+SabreML@users.noreply.github.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
