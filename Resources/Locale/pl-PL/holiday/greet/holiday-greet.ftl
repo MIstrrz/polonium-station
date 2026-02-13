@@ -4,6 +4,7 @@ holiday-greet = Szczęśliwego { $holidayName }!
 
 # TODO zrobić właściwą odmiane dla świąt w liczbie mnogiej (n.p. "urodzin")
 
+
 ## Holiday Names
 
 holiday-name-new-year = Nowego Roku

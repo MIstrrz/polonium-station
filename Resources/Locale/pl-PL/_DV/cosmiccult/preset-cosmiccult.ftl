@@ -5,6 +5,7 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+
 ## COSMIC CULT ROUND, ANTAG & GAMEMODE TEXT
 
 cosmiccult-announcement-sender = ???
@@ -64,7 +65,7 @@ cosmiccult-summary-crewmajor = All cosmic cultists were eliminated.
 cosmiccult-summary-crewcomplete = Every single cosmic cultist was deconverted!
 cosmiccult-elimination-shuttle-call =
     Na podstawie skanów z naszych czujników dalekiego zasięgu anomalia Λ-CDM ustąpiła. Dziękujemy za zachowanie ostrożności. Automatycznie wezwano wahadłowiec ewakuacyjny w celu przeprowadzenia procedur odkażania i podsumowania. Przewidywany czas przybycia: { $time } { $units }.
-
+    
     Jeżeli wpływ psychologiczny anomalii jest nieistotny, możliwe jest cofnięcie ewakuacji, aby przedłużyć zmianę.
 cosmiccult-elimination-announcement = Na podstawie skanów z naszych czujników dalekiego zasięgu anomalia Λ-CDM ustąpiła. Dziękujemy za zachowanie ostrożności. Wahadłowiec ewakuacyjny jest już w drodze. Prosimy bezpiecznie powrócić do Centralnego Dowództwa w celu przeprowadzenia procedur odkażania i podsumowania.
 
@@ -74,7 +75,7 @@ cosmiccult-role-roundstart-fluff =
     As you ready yourself for yet another shift aboard yet another NanoTrasen station, untold knowledge suddenly floods your mind!
     A revelation beyond compare. An end to cyclic, sisyphean suffering.
     A gentle curtain call.
-
+    
     All you need do is usher it in.
 cosmiccult-role-short-briefing =
     You are a Cosmic Cultist!
@@ -84,7 +85,7 @@ cosmiccult-role-conversion-fluff =
     As the invocation completes, untold knowledge suddenly floods your mind!
     A revelation beyond compare. An end to cyclic, sisyphean suffering.
     A gentle curtain call.
-
+    
     All you need do is usher it in.
 cosmiccult-role-deconverted-fluff =
     A great emptiness washes across your mind. A comforting, yet unfamiliar emptiness...

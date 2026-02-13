@@ -102,7 +102,7 @@ thaven-mood-speech-restriction-name =
         [Rhyme] Poeta
         [Alliterate] Absolutnie Aliterazuje Akapity
         [ThirdPerson] Trzecia Osoba
-        [TitleCase] Wielkie Litery 
+        [TitleCase] Wielkie Litery
         [GreySpeak] Ufomowa Jest Teraz Popularna
     }
 thaven-mood-speech-restriction-desc =
