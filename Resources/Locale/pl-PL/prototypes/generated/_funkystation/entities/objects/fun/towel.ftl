@@ -2,116 +2,70 @@ ent-BaseTowelUnfolded = podstawowy ręcznik
     .desc = Jeśli chcesz tu przetrwać, musisz wiedzieć, gdzie jest twój ręcznik.
 ent-TowelColorWhiteUnfolded = biały ręcznik
     .desc = Tanio wykonany i bardzo wszechstronny biały ręcznik. Jeśli chcesz tu przetrwać, musisz wiedzieć, gdzie jest twój ręcznik.
-ent-TowelColorWhite = { ent-TowelColorWhiteUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorWhiteUnfolded.desc }
+
 ent-TowelColorGrayUnfolded = szary ręcznik
     .desc = Bardzo wszechstronny ciepły szary ręcznik. Idealny do siedzenia na plaży tuż poza zasięgiem przypływu.
-ent-TowelColorGray = { ent-TowelColorGrayUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorGrayUnfolded.desc }
+
 ent-TowelColorBlackUnfolded = czarny ręcznik
     .desc = Bardzo wszechstronny czarny ręcznik. Wielu kapelanów dodawałoby frędzle na końcach tego ręcznika, aby zaznaczyć przykazania swojej wiary.
-ent-TowelColorBlack = { ent-TowelColorBlackUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorBlackUnfolded.desc }
+
 ent-TowelColorRedUnfolded = czerwony ręcznik
     .desc = Bardzo wszechstronny czerwony ręcznik. Idealny do sprzątania potencjalnego rozlewu krwi!
-ent-TowelColorRed = { ent-TowelColorRedUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorRedUnfolded.desc }
+
 ent-TowelColorPinkUnfolded = różowy ręcznik
     .desc = Bardzo wszechstronny, wytarty różowy ręcznik. Przetrwał wiele zmian w swoich wyblakłych odcieniach i wciąż jest zaskakująco miękki.
-ent-TowelColorPink = { ent-TowelColorPinkUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorPinkUnfolded.desc }
+
 ent-TowelColorMaroonUnfolded = bordowy ręcznik
     .desc = Bardzo wszechstronny, luksusowy bordowy ręcznik. JEST TAKI PUSZYSTY!
-ent-TowelColorMaroon = { ent-TowelColorMaroonUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorMaroonUnfolded.desc }
+
 ent-TowelColorOrangeUnfolded = pomarańczowy ręcznik
     .desc = Bardzo wszechstronny pomarańczowy ręcznik. Pomimo koloru, ten ręcznik nie jest pod wysokim napięciem.
-ent-TowelColorOrange = { ent-TowelColorOrangeUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorOrangeUnfolded.desc }
+
 ent-TowelColorYellowUnfolded = żółty ręcznik
     .desc = Bardzo wszechstronny żółty ręcznik. Wydaje się trochę śliski.
-ent-TowelColorYellow = { ent-TowelColorYellowUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorYellowUnfolded.desc }
+
 ent-TowelColorGreenUnfolded = zielony ręcznik
     .desc = Bardzo wszechstronny, wytrzymały zielony ręcznik. Dobrze służy swojemu posiadaczowi.
-ent-TowelColorGreen = { ent-TowelColorGreenUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorGreenUnfolded.desc }
+
 ent-TowelColorDarkGreenUnfolded = ciemnozielony ręcznik
     .desc = Bardzo wszechstronny ciemnozielony ręcznik. Książki i woda się nie łączą. Dlatego zawsze powinieneś mieć to na wypadek awarii.
-ent-TowelColorDarkGreen = { ent-TowelColorDarkGreenUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorDarkGreenUnfolded.desc }
+
 ent-TowelColorTealUnfolded = turkusowy ręcznik
     .desc = Bardzo wszechstronny turkusowy ręcznik. A może to akwamaryna. Zdecydowanie kolor związany z wodą.
-ent-TowelColorTeal = { ent-TowelColorTealUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorTealUnfolded.desc }
+
 ent-TowelColorLightBlueUnfolded = jasnoniebieski ręcznik
     .desc = Bardzo wszechstronny jasnoniebieski ręcznik. Pacjent potrzebuje chłosty ręcznikiem, aby przeżyć.
-ent-TowelColorLightBlue = { ent-TowelColorLightBlueUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorLightBlueUnfolded.desc }
+
 ent-TowelColorBlueUnfolded = niebieski ręcznik
     .desc = Bardzo wszechstronny niebieski ręcznik. Staraj się go nie zgubić w wodzie.
-ent-TowelColorBlue = { ent-TowelColorBlueUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorBlueUnfolded.desc }
+
 ent-TowelColorDarkBlueUnfolded = ciemnoniebieski ręcznik
     .desc = Bardzo wszechstronny, wykwintny ciemnoniebieski ręcznik. Ten odcień! Można za niego umrzeć!
-ent-TowelColorDarkBlue = { ent-TowelColorDarkBlueUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorDarkBlueUnfolded.desc }
+
 ent-TowelColorPurpleUnfolded = fioletowy ręcznik
     .desc = Bardzo wszechstronny fioletowy ręcznik. Ręcznik to (zazwyczaj) duży kawałek materiału używany do pochłaniania płynów, szczególnie wody. Może być używany do wchłaniania płynów z rozlania lub do wycierania ciała po umyciu. Ręczniki mogą występować w różnych kolorach i wzorach.
-ent-TowelColorPurple = { ent-TowelColorPurpleUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorPurpleUnfolded.desc }
+
 ent-TowelColorLightBrownUnfolded = jasnobrązowy ręcznik
     .desc = Bardzo wszechstronny jasnobrązowy ręcznik. Nie zbadałeś jeszcze jego wartości na rynku wtórnym.
-ent-TowelColorLightBrown = { ent-TowelColorLightBrownUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorLightBrownUnfolded.desc }
+
 ent-TowelColorBrownUnfolded = brązowy ręcznik
     .desc = Bardzo wszechstronny brązowy ręcznik. Dobrze ukrywa brud.
-ent-TowelColorBrown = { ent-TowelColorBrownUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorBrownUnfolded.desc }
+
 ent-TowelColorMimeUnfolded = cichy ręcznik
     .desc = Bardzo wszechstronny biały ręcznik. Bez charakterystycznego chłaśnięcia, ten ręcznik nie jest wyjątkowy.
-ent-TowelColorMime = { ent-TowelColorMimeUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorMimeUnfolded.desc }
+
 ent-TowelColorCentcomUnfolded = ręcznik centrali
     .desc = Bardzo wszechstronny, królewsko zielony ręcznik. Kolor przypomina ci grube stosy gotówki, które nie trafiają do twojej wypłaty.
-ent-TowelColorCentcom = { ent-TowelColorCentcomUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorCentcomUnfolded.desc }
+
 ent-TowelColorSilverUnfolded = srebrny ręcznik
     .desc = Bardzo wszechstronny, pluszowy srebrny ręcznik. Utkany z prawdziwego srebra i sztucznego złota! Wygodny pomimo metalicznych nitek.
-ent-TowelColorSilver = { ent-TowelColorSilverUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorSilverUnfolded.desc }
+
 ent-TowelColorGoldUnfolded = złoty ręcznik
     .desc = Bardzo wszechstronny, ciężki złoty ręcznik. Obiecano ci płatny urlop. Zamiast tego dostałeś to.
-ent-TowelColorGold = { ent-TowelColorGoldUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorGoldUnfolded.desc }
+
 ent-TowelColorNTUnfolded = ręcznik marki Nanotrasen
     .desc = Bardzo wszechstronny, lśniący niebieski ręcznik wyhaftowany odblaskowym N. Dla najsilniejszych wojowników prysznica Nanotrasen.
-ent-TowelColorNT = { ent-TowelColorNTUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorNTUnfolded.desc }
+
 ent-TowelColorSyndicateUnfolded = ręcznik syndykatu
     .desc = Bardzo wszechstronny, złowrogo wyglądający czarny ręcznik. Dla najsilniejszych wojowników prysznica Syndykatu.
-ent-TowelColorSyndicate = { ent-TowelColorSyndicateUnfolded }
-    .suffix = złożony
-    .desc = { ent-TowelColorSyndicateUnfolded.desc }
+

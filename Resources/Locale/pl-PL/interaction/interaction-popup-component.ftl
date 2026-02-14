@@ -1,6 +1,5 @@
 ### Interaction Popup component
 
-
 ## Petting animals
 
 petting-success-generic = You pet { $target } on { POSS-ADJ($target) } head.

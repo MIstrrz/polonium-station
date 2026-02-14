@@ -19,7 +19,6 @@ species-name-kobold = Kobold
 # Konflikt z Resources\Locale\en-US\_Goobstation\species\gingerbread.ftl
 # species-name-gingerbread = Pyszny wypiek
 
-
 ## Misc species things
 
 snail-hurt-by-salt-popup = Słony roztwór pali jak kwas!

@@ -77,7 +77,6 @@ marking-ArachnidLLegSegments-segments2 = Shin
 
 # UndergarmentBottom
 
-
 # UndergarmentTop
 
 marking-UndergarmentTopBinderA = Binder
@@ -99,18 +98,13 @@ marking-UndershirtRolledA-rolledundershirt = Undershirt
 
 # LFoot
 
-
 # RFoot
-
 
 # LHand
 
-
 # RHand
 
-
 # FacialHair
-
 
 # Hair
 
@@ -130,7 +124,6 @@ marking-ArachnidCheliceraeLongjaw = Chelicerae (Longjaw)
 marking-ArachnidCheliceraeLongjaw-longjaw = Chelicerae
 
 # HeadTop
-
 
 # Tail
 

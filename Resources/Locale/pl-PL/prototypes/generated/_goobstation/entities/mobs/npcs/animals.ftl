@@ -1,8 +1,7 @@
 ent-MobGondolaOLD = gondola
     .desc = Nie mając rąk, ucieleśnia taoistyczną zasadę wu-wei (niedziałania), a jej uśmiechnięta twarz ukazuje pełną akceptację świata takim, jaki jest.
     .gender = female
-ent-MobGondola = gondola
-    .desc = Nie mając rąk, ucieleśnia taoistyczną zasadę wu-wei (niedziałania), a jej uśmiechnięta twarz ukazuje pełną akceptację świata takim, jaki jest.
+
     .gender = female
 ent-MobMothSyndy = syndykaraluch
     .desc = Wybuchowy ćmio–karaluch.

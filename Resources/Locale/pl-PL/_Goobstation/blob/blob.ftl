@@ -7,30 +7,6 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
-ent-SpawnPointGhostBlob = Spawn Bloba
-    .suffix = DEBUG, Ghost Role Spawner
-    .desc = { ent-MarkerBase.desc }
-ent-MobBlobPod = Kropla Bloba
-    .desc = Lewitujące, agresywne stworzenie z bloba, które wydaje się być nadęte gazem. Pasożytniczo zamienia martwe organizmy w zombie, przyczepiając się do ich głów i zmuszając ciało oraz mózg do ożywienia.
-ent-MobBlobBlobbernaut = Blobbernaut
-    .desc = Wytrzymałe i potężne stworzenie z bloba, bardzo terytorialne.
-ent-BaseBlob = podstawowy blob.
-    .desc = { "" }
-ent-NormalBlobTile = infestacja bloba
-    .desc = Duży płat biomasy bloba niezbędny do budowy struktur bloba. Atakuje wszystko wokół siebie.
-ent-CoreBlobTile = Rdzeń Bloba
-    .desc = Najważniejsza część bloba. Zniszczenie rdzenia powoduje śmierć wszystkich innych części.
-ent-FactoryBlobTile = Fabryka Bloba
-    .desc = Odrażająco wyglądająca struktura bloba, która z czasem tworzy krople bloba, a po nakarmieniu zasobami tworzy potężne blobbernauty.
-ent-ResourceBlobTile = Blob Zasobów
-    .desc = Struktura bloba w kształcie wzgórza, która stale produkuje żółtą lepką ciecz. Ciecz ta wydaje się wsiąkać w otaczającą infestację, pomagając jej się rozprzestrzeniać i rosnąć...
-ent-NodeBlobTile = Węzeł Bloba
-    .desc = Mini wersja rdzenia, która pozwala na budowę specjalnych struktur bloba wokół siebie.
-ent-StrongBlobTile = gruba infestacja bloba
-    .desc = Wzniesiony, wzmocniony płat biomasy bloba. Nie przepuszcza powietrza i chroni przed obrażeniami kinetycznymi.
-ent-ReflectiveBlobTile = odblaskowa infestacja bloba
-    .desc = Płat odblaskowej biomasy bloba, który odbija lasery, ale nie chroni tak dobrze przed obrażeniami kinetycznymi.
-    .desc = { "" }
 objective-issuer-blob = Blob
 ghost-role-information-blobbernaut-name = Blobbernaut
 ghost-role-information-blobbernaut-description = Jesteś blobbernautem. Musisz bronić Rdzenia Bloba za wszelką cenę.
