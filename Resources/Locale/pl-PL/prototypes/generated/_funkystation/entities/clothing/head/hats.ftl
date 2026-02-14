@@ -8,3 +8,7 @@ ent-ClothingHeadHatCargoSeniorBeret = beret starszego magazyniera
     .desc = Charakterystyczny beret dla tych, którzy przenoszą ładunki.
 ent-ClothingHeadHatConductor = czapka konduktora
     .desc = Nawet w ciemnościach kosmosu ludzie kochają swoje pociągi.
+ent-ClothingHeadHatSurgcapBlack = czapka koronera
+    .desc = Czapka noszona przez koronera. Sprawia, że wyglądasz tak ponuro jak twoje miejsce pracy.
+ent-ClothingHeadHatCEConductor = czapka konduktora naczelnego inżyniera
+    .desc = Konduktor może oznaczać zarówno lidera, jak i coś, przez co przepływa duża ilość prądu. Naczelni inżynierowie zazwyczaj są obiema tymi rzeczami.

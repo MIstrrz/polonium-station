@@ -1,4 +1,4 @@
-temperature-gate-ui-window-title = Bramka Temperatury
+temperature-gate-ui-window-title = Zawór Temperaturowy
 temperature-gate-ui-status-label = Status:
 temperature-gate-ui-status-enabled = Wł.
 temperature-gate-ui-status-disabled = Wył.
