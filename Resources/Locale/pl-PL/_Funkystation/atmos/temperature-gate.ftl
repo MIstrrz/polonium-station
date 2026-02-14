@@ -7,7 +7,6 @@ temperature-gate-ui-threshold-placeholder = 273.15
 temperature-gate-ui-mode-max = Maks.
 temperature-gate-ui-mode-min = Min.
 temperature-gate-ui-set = Ustaw
-
 # Examined text
 temperature-gate-examined = { $status } — otwiera się, gdy temperatura wynosi { $mode } { $threshold } K
 temperature-gate-status-enabled = Włączona
