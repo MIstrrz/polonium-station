@@ -13,6 +13,9 @@ marking-slot-remove = Usuń
 marking-slot = Miejsce { $number }
 # Categories
 markings-category-Special = Specjalne
+marking-forced-colors = Ta cecha ma wymuszone kolory i nie można jej dostosować.
+marking-select-to-customize = Wybierz cechę z prawego panelu, aby dostosować jej kolory.
+marking-customize-colors = Kolorowanie
 markings-category-Hair = Włosy
 markings-category-FacialHair = Zarost
 markings-category-Head = Głowa

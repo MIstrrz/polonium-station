@@ -70,6 +70,7 @@ thaven-mood-voxsymp-name = Sympatyk Vox
 thaven-mood-voxsymp-desc = By pokazać że wspierasz Voxów, musisz zawsze być podłączony do butli tlenowej.
 thaven-mood-item-good-name = Kolekcjoner
 thaven-mood-item-good-desc = { $item } jest dla ciebie niesamowicie fascynujący. Zbierz tak dużo jak tylko potrafisz, i upewnij się ze inni okazują im odpowiedni szacunek.
+thaven-mood-smoker-name = Smoker
 thaven-mood-smoker-desc = Jesteś bezradnie uzależniony od nikotyny. Jeśli aktywnie nie palisz, odczuwasz głód nikotynowy.
 thaven-mood-eye-for-eye-name = Oko Za Oko
 thaven-mood-eye-for-eye-desc = Odwet powinien być proporcjonaln.

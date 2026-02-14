@@ -5,3 +5,4 @@
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
+reagent-desc-juice-cherry = Najlepszy czerwony smak.

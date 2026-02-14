@@ -6,6 +6,7 @@
 
 thaven-mood-secret-moods-name = Trzymaj Nastroje W Sekrecie
 thaven-mood-secret-moods-desc = Twoje Nastroje są ściśle trzymanym sekretem, i nigdy nie powinny być ujawniane komukolwiek.
+thaven-mood-no-modern-medicine-name = Żadnej Nowoczesnej Medycyny
 thaven-mood-no-modern-medicine-desc = Nie akceptujesz współczesnej medycyny i powinieneś powstrzymać się od leczenia nią, jeśli to możliwe.
 thaven-mood-department-disapproval-name = Negatywny Do { $department }
 thaven-mood-department-disapproval-desc = Jesteś negatywnie nastawiony wobec { $department } oraz kogokolwiek kto w nim pracuje (Wykluczając siebe.)
@@ -86,4 +87,4 @@ thaven-mood-afraiddark-name = Strach Przed Ciemnością
 thaven-mood-afraiddark-desc = W ciemności kryje się wiele niebezpieczeństw, i nie wkroczysz w nią bez odpowiedniego oświetlenia.
 # Testing Locales, only exist to shut up prototype tests
 DuplicateTest = Nie powinieneś tego widzieć
-DuplicateOverlapTest = Time, doctor freeman?
+DuplicateOverlapTest = Czas, doktorze Freeman?
