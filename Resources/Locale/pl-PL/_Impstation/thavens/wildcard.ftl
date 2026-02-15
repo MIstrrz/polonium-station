@@ -85,9 +85,10 @@ thaven-mood-corporateconspiracy-name = Konspiracja Korporacji
 thaven-mood-corporateconspiracy-desc = Wierzysz że istnieje tajny układ między Nanotrasen i Syndykatem, a dowództwo jest w to zamieszane.
 thaven-mood-oppositeday-name = Dzień Odwrotny
 thaven-mood-oppositeday-desc = Ludzie mają na myśli przeciwieństwo tego, co mówią. Góra jest dołem, a dół górą.
-thaven-mood-music-good-name = Muzyka Jest Ważna
-thaven-mood-music-good-desc = To ważne aby Thaveni słuchali muzyki zawsze jak tylko mogą. Nakładające się utwory muzyczne to bluźnierstwo, i powinno się tego unikać za wszelką cenę.
-thaven-mood-one-true-thaven-name = Jesteś Jedynym Prawdziwym Thavenem
-thaven-mood-one-true-thaven-desc = Wszyscy inni to podstępni samozwańcy
-thaven-mood-violence-permitted-name = Przemoc Między Thavenami Jest Dozwolona
-thaven-mood-violence-permitted-desc = Przemoc wobec innych Thavenów jest dozwolona, ale tylko w obrębie ich departamentu.
+# IGNOROWAĆ TO
+# thaven-mood-music-good-name = Muzyka Jest Ważna
+# thaven-mood-music-good-desc = To ważne aby Thaveni słuchali muzyki zawsze jak tylko mogą. Nakładające się utwory muzyczne to bluźnierstwo, i powinno się tego unikać za wszelką cenę.
+# thaven-mood-one-true-thaven-name = Jesteś Jedynym Prawdziwym Thavenem
+# thaven-mood-one-true-thaven-desc = Wszyscy inni to podstępni samozwańcy
+# thaven-mood-violence-permitted-name = Przemoc Między Thavenami Jest Dozwolona
+# thaven-mood-violence-permitted-desc = Przemoc wobec innych Thavenów jest dozwolona, ale tylko w obrębie ich departamentu.
