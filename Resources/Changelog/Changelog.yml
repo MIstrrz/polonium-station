@@ -1,27 +1,6 @@
 ﻿Entries:
 - author: Ian321
   changes:
-  - message: Job specific contraband descriptions are now grammatically sound.
-    type: Fix
-  id: 7841
-  time: '2025-01-23T10:08:41.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34559
-- author: Fildrance, SaphireLattice, eoineoineoin
-  changes:
-  - message: Radial menu UIs have been updated for readability.
-    type: Tweak
-  id: 7842
-  time: '2025-01-23T12:16:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32653
-- author: K-Dynamic
-  changes:
-  - message: The Drozd SMG can now fire in full-auto, burst or semi-auto
-    type: Tweak
-  id: 7843
-  time: '2025-01-23T13:01:20.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34604
-- author: Ian321
-  changes:
   - message: Restricted contraband now gets displayed correctly.
     type: Fix
   id: 7844
@@ -4074,3 +4053,32 @@
   id: 9148
   time: '2026-02-14T03:19:42.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/466
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono znaki na\u015Bcienne (resprite)"
+    type: Tweak
+  id: 9149
+  time: '2026-02-15T01:46:27.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/467
+- author: Nikitapl
+  changes:
+  - message: "Poprawiono niekt\xF3re b\u0142\u0119dy t\u0142umaczeniowe"
+    type: Fix
+  - message: "Przet\u0142umaczono do ko\u0144ca cele antagonist\xF3w"
+    type: Tweak
+  - message: "Przet\u0142umaczono okienko podsumowania rundy"
+    type: Add
+  id: 9150
+  time: '2026-02-15T06:15:26.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/469
+- author: Nikitapl
+  changes:
+  - message: "Przet\u0142umaczono poradniki og\xF3lne"
+    type: Add
+  - message: "Przet\u0142umaczono SPO Dow\xF3dztwa"
+    type: Add
+  - message: "Przet\u0142umaczono SPO Serwisu"
+    type: Add
+  id: 9151
+  time: '2026-02-15T18:34:38.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/468
