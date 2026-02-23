@@ -2,7 +2,7 @@
 <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg">
 </div>
 
-Space Station 14 to remake SS13 działający na [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), naszym autorskim silniku napisanym w C#.
+Space Station 14 to remake SS13 działający na [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), silniku napisanym w C#.
 
 To jest polska wersja gry, oparta na repozytorium [Funky Station](https://github.com/funky-station/funky-station).
 
