@@ -1,18 +1,4 @@
 ﻿Entries:
-- author: JustinWinningham
-  changes:
-  - message: Renamed sexy clown and mime mask.
-    type: Tweak
-  id: 7847
-  time: '2025-01-24T03:56:33.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34258
-- author: Velken
-  changes:
-  - message: Moved Cyborg Charger Circuit Board from Auto Lathe to Circuit Imprinter.
-    type: Tweak
-  id: 7848
-  time: '2025-01-24T04:30:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34612
 - author: Errant
   changes:
   - message: Cyborgs now start with positronic brains.
@@ -4084,3 +4070,20 @@
   id: 9154
   time: '2026-02-20T16:10:17.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/476
+- author: Pinkscreen oraz Nikita
+  changes:
+  - message: "Nowe d\u017Awi\u0119ki do kod\xF3w zagro\u017Ce\u0144"
+    type: Add
+  - message: "Ulepszone teksty kod\xF3w zagro\u017Ce\u0144"
+    type: Tweak
+  id: 9155
+  time: '2026-02-23T04:01:01.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/504
+- author: Nikita
+  changes:
+  - message: "Je\u015Bli dobrze rozz\u0142o\u015Bcisz CD, to zostaniesz zbombardowany\
+      \ artyleri\u0105!"
+    type: Add
+  id: 9156
+  time: '2026-02-23T03:57:16.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/505
