@@ -14,6 +14,7 @@
 # SPDX-FileCopyrightText: 2024 VMSolidus <evilexecutive@gmail.com>
 # SPDX-FileCopyrightText: 2024 liltenhead <104418166+liltenhead@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -148,3 +149,19 @@
   texturePath: /Textures/Effects/fire.rsi
   fireStates: 6
   fireStacks: 2
+
+- type: explosion
+  id: BluespaceArtillery # Polonium
+  damagePerIntensity:
+    types:
+      Heat: 30
+      Blunt: 30
+      Piercing: 20
+      Structural: 100
+  tileBreakChance: [ 0, 0.5, 1 ]
+  tileBreakIntensity: [ 0, 10, 30 ]
+  tileBreakRerollReduction: 10
+  intensityPerState: 20
+  lightColor: Blue
+  texturePath: /Textures/Effects/fire_greyscale.rsi
+  fireStates: 6
