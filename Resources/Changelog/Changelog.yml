@@ -1,32 +1,4 @@
 ﻿Entries:
-- author: Errant
-  changes:
-  - message: Cyborgs now start with positronic brains.
-    type: Tweak
-  id: 7849
-  time: '2025-01-24T06:58:34.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34614
-- author: CaasGit
-  changes:
-  - message: Solar panels can now be upgraded with plasma or uranium glass.
-    type: Add
-  id: 7850
-  time: '2025-01-26T14:01:34.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/29224
-- author: Coolsurf6
-  changes:
-  - message: Added the HoS's flask to their respective lockers.
-    type: Add
-  id: 7851
-  time: '2025-01-26T23:39:27.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34658
-- author: Compilatron144
-  changes:
-  - message: Plasma station fixes
-    type: Tweak
-  id: 7852
-  time: '2025-01-27T07:07:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34602
 - author: ArtisticRoomba
   changes:
   - message: The pneumatic valve now has a more descriptive description.
@@ -4087,3 +4059,40 @@
   id: 9156
   time: '2026-02-23T03:57:16.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/505
+- author: Nikita
+  changes:
+  - message: "Zmieniono nazw\u0119 \"Korpus \u015Amierci\" na \"Szwadron \u015Amierci\""
+    type: Tweak
+  id: 9157
+  time: '2026-03-08T15:30:31.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/523
+- author: pinkscreen
+  changes:
+  - message: Poprawka meta danych w jednej piosence.
+    type: Tweak
+  id: 9158
+  time: '2026-03-01T00:35:45.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/518
+- author: Nikita
+  changes:
+  - message: "Zwi\u0119kszono limit graczy do gry na mapach Eden, Omega"
+    type: Tweak
+  - message: "Zwi\u0119kszono maksymaln\u0105 liczb\u0119 graczy do gry na Chibi"
+    type: Tweak
+  id: 9159
+  time: '2026-02-28T04:33:08.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/515
+- author: Nikitapl
+  changes:
+  - message: "Dodano d\u017Awi\u0119k og\u0142osze\u0144 od za\u0142ogi"
+    type: Add
+  - message: "Dodano d\u017Awi\u0119k og\u0142osze\u0144 z Centrali"
+    type: Add
+  - message: "Znormalizowano g\u0142osno\u015Bci wszystkich komunikat\xF3w"
+    type: Tweak
+  - message: "Usuni\u0119to niekt\xF3re piosenki z lobby (ich wci\u0105\u017C jest\
+      \ wiele)"
+    type: Remove
+  id: 9160
+  time: '2026-03-08T01:18:34.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/522
