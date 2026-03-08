@@ -51,8 +51,12 @@
 // SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 // SPDX-FileCopyrightText: 2025 YaraaraY <158123176+YaraaraY@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 duston <66768086+dch-GH@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 nikitosych <boriszyn@gmail.com>
 // SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2025 thepinkscreen <76622775+thepinkscreen@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -129,6 +133,7 @@ public sealed partial class ChatSystem : SharedChatSystem
     public const int WhisperClearRange = 2; // how far whisper goes while still being understandable, in world units
     public const int WhisperMuffledRange = 5; // how far whisper goes at all, in world units
     public const string DefaultAnnouncementSound = "/Audio/_Polonium/Announcements/announce.ogg";
+    public const string CCAnnouncementSound = "/Audio/_Polonium/Announcements/centcomm_announce.ogg";
 
     private bool _loocEnabled = true;
     private bool _deadLoocEnabled;
@@ -467,11 +472,18 @@ public sealed partial class ChatSystem : SharedChatSystem
             }
             else
             {
+                // Polonium: support different announcement sound from CentComm
+                var sound = announcementSound ?? new SoundPathSpecifier(sender == Loc.GetString("admin-announce-announcer-default")
+                    ? CCAnnouncementSound
+                    : DefaultAnnouncementSound);
+
                 _audio.PlayGlobal(
-                    announcementSound == null ? DefaultAnnouncementSound : _audio.ResolveSound(announcementSound),
+                    _audio.ResolveSound(sound),
                     Filter.Broadcast(),
                     true,
-                    AudioParams.Default.WithVolume(-2f));
+                    AudioParams.Default.WithVolume(
+                        announcementSound != null ? -2f : -3f
+                    ));
             }
         }
         else if (announcementWords != null)
@@ -574,7 +586,7 @@ public sealed partial class ChatSystem : SharedChatSystem
             _audio.PlayGlobal(announcementSound == null ? DefaultAnnouncementSound : _audio.GetSound(announcementSound),
                 Filter.Broadcast(),
                 true,
-                AudioParams.Default.WithVolume(-2f));
+                AudioParams.Default.WithVolume(-3f));
         }
 
         if (announcementWords != null && TryGetAiCore(source, out var aiCore))
