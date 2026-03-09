@@ -8,57 +8,53 @@
 #
 # SPDX-License-Identifier: MIT
 
-"Changes: Sprites":
+"Zmiany: Sprite":
 - changed-files:
   - any-glob-to-any-file: '**/*.rsi/*.png'
 
-"Changes: Map":
+"Zmiany: Mapa":
 - changed-files:
   - any-glob-to-any-file:
     - 'Resources/Maps/**/*.yml'
     - 'Resources/Prototypes/Maps/**/*.yml'
 
-"Changes: UI":
+"Zmiany: UI":
 - changed-files:
   - any-glob-to-any-file: '**/*.xaml*'
 
-"Changes: Shaders":
+"Zmiany: Shadery":
 - changed-files:
   - any-glob-to-any-file: '**/*.swsl'
 
-"Changes: Audio":
+"Zmiany: Audio":
 - changed-files:
   - any-glob-to-any-file: '**/*.ogg'
 
-"Changes: No C#":
+"Zmiany: Brak C#":
 - changed-files:
   # Equiv to any-glob-to-all as long as this has one matcher. If ALL changed files are not C# files, then apply label.
   - all-globs-to-all-files: "!**/*.cs"
 
-"C#":
+"O: C#":
 - changed-files:
   - any-glob-to-any-file: "**/*.cs"
 
-"Tłumaczenie":
+"O: Tłumaczenie":
 - changed-files:
   - any-glob-to-any-file: '**/*.ftl'
 
-"Tools/Skrypty":
+"Zmiany: Skrypty":
 - changed-files:
   - any-glob-to-any-file: 'Tools/**'
   - any-glob-to-any-file: 'Scripts/**'
 
-"Assety":
+"Zmiany: Assety":
 - changed-files:
-  - any-glob-to-any-file: '**/*.png'
+  - all-globs-to-any-file: ['**/*.png', '!**/*.rsi/*.png']
   - any-glob-to-any-file: '**/*.ogg'
   - any-glob-to-any-file: '**/*.svg'
   - any-glob-to-any-file: '**/*.ico'
 
-"Dokumentacja":
+"O: Dokumentacja":
 - changed-files:
   - any-glob-to-any-file: 'Resources/ServerInfo/**/*.xml'
-
-"Prototypy":
-- changed-files:
-  - any-glob-to-any-file: 'Resources/Prototypes/**/*.yml'
