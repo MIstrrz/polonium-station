@@ -7,11 +7,9 @@ jobs:
     # Change the repository name after you've made sure the team name is correct for your fork!
     if: ${{ (github.repository == 'polonium14/polonium-station') && (github.event.review.state == 'APPROVED') }}
     permissions:
-      contents: read
       pull-requests: write
-      issues: write
     runs-on: ubuntu-latest
     steps:
-    - uses: actions-ecosystem/action-add-labels@v1
+    - uses: actions-ecosystem/action-add-labels@v1.1.3
       with:
-        labels: "(/) Zatwierdzono"
+        labels: "S: Zatwierdzono"

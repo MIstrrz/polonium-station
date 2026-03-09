@@ -16,6 +16,6 @@ jobs:
       - name: Check for Merge Conflicts
         uses: eps1lon/actions-label-merge-conflict@v3.0.0
         with:
-          dirtyLabel: "(/) Konflikt Scalania"
+          dirtyLabel: "S: Konflikt Scalania"
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           commentOnDirty: "Ten pull request ma konflikty, proszę je rozwiązać, zanim będziemy mogli ocenić pull request."
