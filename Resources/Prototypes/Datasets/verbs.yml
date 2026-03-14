@@ -4,640 +4,642 @@
 # SPDX-FileCopyrightText: 2024 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+#SPDX-FileCopyrightText: 2026 M.A.Ł.P.A~~Mistrz~~ <@>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: dataset
   id: verbs
   values:
-  - accept
-  - add
-  - admire
-  - admit
-  - advise
-  - afford
-  - agree
-  - alert
-  - allow
-  - amuse
-  - analyse
-  - announce
-  - annoy
-  - answer
-  - apologise
-  - appear
-  - applaud
-  - appreciate
-  - approve
-  - argue
-  - arrange
-  - arrest
-  - arrive
-  - ask
-  - attach
-  - attack
-  - attempt
-  - attend
-  - attract
-  - avoid
-  - back
-  - bake
-  - balance
-  - ban
-  - bang
-  - bare
-  - bat
-  - bathe
-  - battle
-  - beam
-  - beg
-  - behave
-  - belong
-  - bleach
-  - bless
-  - blind
-  - blink
-  - blot
-  - blush
-  - boast
-  - boil
-  - bolt
-  - bomb
-  - book
-  - bore
-  - borrow
-  - bounce
-  - bow
-  - box
-  - brake
-  - brake
-  - branch
-  - breathe
-  - bruise
-  - brush
-  - bubble
-  - bump
-  - burn
-  - bury
-  - buzz
-  - calculate
-  - call
-  - camp
-  - care
-  - carry
-  - carve
-  - cause
-  - challenge
-  - change
-  - charge
-  - chase
-  - cheat
-  - check
-  - cheer
-  - chew
-  - choke
-  - chop
-  - claim
-  - clap
-  - clean
-  - clear
-  - clip
-  - close
-  - coach
-  - coil
-  - collect
-  - colour
-  - comb
-  - command
-  - communicate
-  - compare
-  - compete
-  - complain
-  - complete
-  - concentrate
-  - concern
-  - confess
-  - confuse
-  - connect
-  - consider
-  - consist
-  - contain
-  - continue
-  - copy
-  - correct
-  - cough
-  - count
-  - cover
-  - crack
-  - crash
-  - crawl
-  - cross
-  - crush
-  - cry
-  - cure
-  - curl
-  - curve
-  - cycle
-  - dam
-  - damage
-  - dance
-  - dare
-  - decay
-  - deceive
-  - decide
-  - decorate
-  - delay
-  - delight
-  - deliver
-  - depend
-  - describe
-  - desert
-  - deserve
-  - destroy
-  - detect
-  - develop
-  - disagree
-  - disappear
-  - disapprove
-  - disarm
-  - discover
-  - dislike
-  - divide
-  - double
-  - doubt
-  - drag
-  - drain
-  - dream
-  - dress
-  - drip
-  - drop
-  - drown
-  - drum
-  - dry
-  - dust
-  - earn
-  - educate
-  - embarrass
-  - employ
-  - empty
-  - encourage
-  - end
-  - enjoy
-  - enter
-  - entertain
-  - escape
-  - examine
-  - excite
-  - excuse
-  - exercise
-  - exist
-  - expand
-  - expect
-  - explain
-  - explode
-  - extend
-  - face
-  - fade
-  - fail
-  - fancy
-  - fasten
-  - fax
-  - fear
-  - fence
-  - fetch
-  - file
-  - fill
-  - film
-  - fire
-  - fit
-  - fix
-  - flap
-  - flash
-  - float
-  - flood
-  - flow
-  - flower
-  - fold
-  - follow
-  - fool
-  - force
-  - form
-  - found
-  - frame
-  - frighten
-  - fry
-  - gather
-  - gaze
-  - glow
-  - glue
-  - grab
-  - grate
-  - grease
-  - greet
-  - grin
-  - grip
-  - groan
-  - guarantee
-  - guard
-  - guess
-  - guide
-  - hammer
-  - hand
-  - handle
-  - hang
-  - happen
-  - harass
-  - harm
-  - hate
-  - haunt
-  - head
-  - heal
-  - heap
-  - heat
-  - help
-  - hook
-  - hop
-  - hope
-  - hover
-  - hug
-  - hum
-  - hunt
-  - hurry
-  - identify
-  - ignore
-  - imagine
-  - impress
-  - improve
-  - include
-  - increase
-  - influence
-  - inform
-  - inject
-  - injure
-  - instruct
-  - intend
-  - interest
-  - interfere
-  - interrupt
-  - introduce
-  - invent
-  - invite
-  - irritate
-  - itch
-  - jail
-  - jam
-  - jog
-  - join
-  - joke
-  - judge
-  - juggle
-  - jump
-  - kick
-  - kill
-  - kiss
-  - kneel
-  - knit
-  - knock
-  - knot
-  - label
-  - land
-  - last
-  - laugh
-  - launch
-  - learn
-  - level
-  - license
-  - lick
-  - lie
-  - lighten
-  - like
-  - list
-  - listen
-  - live
-  - load
-  - lock
-  - long
-  - look
-  - love
-  - man
-  - manage
-  - march
-  - mark
-  - marry
-  - match
-  - mate
-  - matter
-  - measure
-  - meddle
-  - melt
-  - memorise
-  - mend
-  - messup
-  - milk
-  - mine
-  - miss
-  - mix
-  - moan
-  - moor
-  - mourn
-  - move
-  - muddle
-  - mug
-  - multiply
-  - murder
-  - nail
-  - name
-  - need
-  - nest
-  - nod
-  - note
-  - notice
-  - number
-  - obey
-  - object
-  - observe
-  - obtain
-  - occur
-  - offend
-  - offer
-  - open
-  - order
-  - overflow
-  - owe
-  - own
-  - pack
-  - paddle
-  - paint
-  - park
-  - part
-  - pass
-  - paste
-  - pat
-  - pause
-  - peck
-  - pedal
-  - peel
-  - peep
-  - perform
-  - permit
-  - phone
-  - pick
-  - pinch
-  - pine
-  - place
-  - plan
-  - plant
-  - play
-  - please
-  - plug
-  - point
-  - poke
-  - polish
-  - pop
-  - possess
-  - post
-  - pour
-  - practise
-  - pray
-  - preach
-  - precede
-  - prefer
-  - prepare
-  - present
-  - preserve
-  - press
-  - pretend
-  - prevent
-  - prick
-  - print
-  - produce
-  - program
-  - promise
-  - protect
-  - provide
-  - pull
-  - pump
-  - punch
-  - puncture
-  - punish
-  - push
-  - question
-  - queue
-  - race
-  - radiate
-  - rain
-  - raise
-  - reach
-  - realise
-  - receive
-  - recognise
-  - record
-  - reduce
-  - reflect
-  - refuse
-  - regret
-  - reign
-  - reject
+  - akceptuj #accept
+  - dodaj #add
+#  - admire
+  - przyznaj #admit
+  - radź #advise
+  - finansuj #afford
+  - zgadza #agree
+  - ostrzega #alert
+  - pozwalaj #allow
+#  - amuse
+  - analizuj #analyse
+  - obwieszcza #announce
+  - przeszakadza #annoy
+  - odpowiada #answer
+  - przeprasza #apologise
+#  - appear
+#  - applaud
+  - doacenia #appreciate
+#  - approve
+  - argumentuj #argue
+#  - arrange
+  - aresztuj #arrest
+  - przybywa #arrive
+  - pytaj #ask
+  - przmocuj #attach
+  - atakuj #attack
+  - usiłuj #attempt
+#  - attend
+#  - attract
+  - unikaj #avoid
+  - cofa #back
+  - piecz #bake
+  - balansuj #balance
+#  - ban
+#  - bang
+#  - bare
+#  - bat
+#  - bathe
+  - walcz #battle
+#  - beam
+  - błaga #beg
+  - zachowuj #behave
+  - należy #belong
+  - opalaj #bleach
+  - bogosław #bless
+#  - blind
+  - mruga #blink
+#  - blot
+#  - blush
+#  - boast
+  - gotuj #boil
+  - przytwierdzaj #bolt
+  - wysadza #bomb
+  - rezerwuj #book
+#  - bore
+#  - borrow
+#  - bounce
+#  - bow
+#  - box
+#  - brake
+#  - brake
+#  - branch
+  - oddycha #breathe
+#  - bruise
+#  - brush
+#  - bubble
+#  - bump
+#  - burn
+#  - bury
+#  - buzz
+  - licz #calculate
+  - woła #call
+#  - camp
+#  - care
+  - niesi #carry
+#  - carve
+#  - cause
+  - wyzywa #challenge
+  - zmienia #change
+  - ładuj #charge
+  - goni #chase
+  - oszukuj #cheat
+ # - check
+ # - cheer
+ # - chew
+ # - choke
+ # - chop
+ # - claim
+ # - clap
+  - czyści #clean
+ # - clear
+ # - clip
+  - zamuka #close
+ # - coach
+ # - coil
+  - zbiera #collect
+ # - colour
+ # - comb
+  - rozkazuj #command
+  - komunikuje  #communicate
+  - porównuje #compare
+ # - compete
+ # - complain
+  - dokonuj #complete
+  - koncentruje #concentrate
+ # - concern
+  - wyznaj #confess
+  - odmawia #confuse
+  - łączy #connect
+  - rozwarza #consider
+ # - consist
+  - zawiera #contain
+  - kontynułuj #continue
+  - kopiuj #copy
+  - poprawia #correct
+ # - cough
+  - licz #count
+  - pokrywa #cover
+  - łam #crack
+  - zbija #crash
+  - czołga #crawl
+  - przecina #cross
+ # - crush
+  - płacz #cry
+ # - cure
+ # - curl
+ # - curve
+ # - cycle
+ # - dam
+ # - damage
+ # - dance
+ # - dare
+ # - decay
+ # - deceive
+ # - decide
+  - dekoruj #decorate
+  - opóźnia #delay
+ # - delight
+  - dostarczaj #deliver
+  - zależy #depend
+  - opisuj #describe
+ # - desert
+ # - deserve
+  - niszcz #destroy
+  - wykrywa #detect
+  - wykrztałca #develop
+  - nie zgadza #disagree
+  - znika #disappear
+ # - disapprove
+  - rozbraja #disarm
+  - odkrywa #discover
+  - nie lubi #dislike
+  - dzieli #divide
+ # - double
+ # - doubt
+ # - drag
+ # - drain
+  - marzy #dream1
+  - śni   #dream2
+  - ubiera #dress
+#  - drip
+#  - drop
+  - tonie #drown
+ # - drum
+ # - dry
+ # - dust
+  - zarabia #earn
+  - ucz #educate
+  - zawstydza #embarrass
+  - zatrudnia #employ
+ # - empty
+  - zachęca #encourage
+  - kończ #end
+ # - enjoy
+  - wchodz #enter
+ # - entertain
+  - ucieka #escape
+  - ogląda #examine
+  # - excite
+  # - excuse
+  - ćwicz #exercise
+ # - exist
+  - rozszerza #expand
+  - oczekuj #expect
+ # - explain
+  - wybucha #explode
+ # - extend
+ # - face
+ # - fade
+ # - fail
+ # - fancy
+ # - fasten
+  - faksuj #fax
+ # - fear
+ # - fence
+ # - fetch
+ # - file
+ # - fill
+ # - film
+ # - fire
+ # - fit
+ # - fix
+ # - flap
+ # - flash
+ # - float
+ # - flood
+ # - flow
+ # - flower
+ # - fold
+  - podąrza #follow
+#  - fool
+  - zmusza #force
+  - formuj #form
+  - znajduj #found
+ # - frame
+ # - frighten
+ # - fry
+ # - gather
+ # - gaze
+  - świeć #glow
+ # - glue
+ # - grab
+ # - grate
+ # - grease
+ # - greet
+ # - grin
+ # - grip
+ # - groan
+  - gwarantuj #guarantee
+  - broni #guard
+  - zaguj #guess
+ # - guide
+ # - hammer
+ # - hand
+ # - handle
+ # - hang
+ # - happen
+ # - harass
+ # - harm
+ # - hate
+  - poluj #haunt
+ # - head
+ # - heal
+ # - heap
+ # - heat
+ # - help
+ # - hook
+ # - hop
+ # - hope
+ # - hover
+  - przytula #hug
+ # - hum
+ # - hunt
+  - pospiesza #hurry
+  - identyfikuj #identify
+  - ignoruj #ignore
+  - wyobraża #imagine
+ # - impress
+ # - improve
+  - zawiera #include
+ # - increase
+  - wpływa #influence
+  - informuj #inform
+  - wstrzykuj #inject
+ # - injure
+ # - instruct
+ # - intend
+ # - interest
+  - interferuj #interfere
+  - przerywa #interrupt
+ # - introduce
+  - odwraca #invent
+  - zaprasza #invite
+ # - irritate
+ # - itch
+  - więzi #jail
+ # - jam
+ # - jog
+  - dołącza #join
+ # - joke
+  - osądza #judge
+ # - juggle
+  - skacz #jump
+  - kopie #kick
+  - zabija #kill
+  - całuj #kiss
+ # - kneel
+ # - knit
+ # - knock
+ # - knot
+  - oznacza #label
+ # - land
+ # - last
+  - śmiej #laugh
+  - uruchamia #launch
+  - uczy #learn
+ # - level
+ # - license
+ # - lick
+  - kłamie #lie
+ # - lighten
+  - lubi #like
+ # - list
+  - słucha #listen
+  - żyje #live
+ # - load
+  - blokuj #lock
+  - wydłuża #long
+  - patrz #look
+  - kocha #love
+ # - man
+  - zarządza #manage
+ # - march
+  - oznacza #mark
+  - żeni #marry
+#  - match
+#  - mate
+#  - matter
+#  - measure
+#  - meddle
+  - topi #melt
+#  - memorise
+#  - mend
+#  - messup
+#  - milk
+#  - mine
+  - pudłuj #miss
+  - miesza #mix
+#  - moan
+#  - moor
+#  - mourn
+  - przemieszcza #move
+#  - muddle
+  - napada #mug
+  - mnoży #multiply
+  - morduj #murder
+#  - nail
+  - nazywa #name
+#  - need
+#  - nest
+#  - nod
+  - notuj #note
+  - zauwarza #notice
+#  - number
+#  - obey
+#  - object
+  - obserwuj #observe
+  - zdobywa #obtain
+  - wydarza #occur
+#  - offend
+  - oferuj #offer
+  - otwiera #open
+ # - order
+  - przepełnia #overflow
+ # - owe
+  - posiada #own
+ # - pack
+ # - paddle
+  - maluje #paint
+ # - park
+ # - part
+ # - pass
+ # - paste
+ # - pat
+ # - pause
+ # - peck
+ # - pedal
+ # - peel
+ # - peep
+  - wykonuj #perform
+  - zezwalaj #permit
+  - dzwoni #phone
+ # - pick
+ # - pinch
+ # - pine
+ # - place
+ # - plan
+ # - plant
+ # - play
+ # - please
+ # - plug
+ # - point
+ # - poke
+  - poleruje #polish
+ # - pop
+  - ma #possess
+ # - post
+ # - pour
+  - praktykuj #practise
+  - modle #pray
+ # - preach
+ # - precede
+  - wole #prefer
+  - przygotuj #prepare
+ # - present
+ # - preserve
+ # - press
+  - udaj #pretend
+  - zapobiegaj #prevent
+ # - prick
+  - zapisuj #print
+ # - produce
+ # - program
+  - obiecuj #promise
+  - borni #protect
+ # - provide
+  - ciągni #pull
+ # - pump
+  - bij #punch
+ # - puncture
+ # - punish
+  - pcha #push
+  - pytaj #question
+ # - queue
+  - ściga #race
+ # - radiate
+  - pada #rain
+ # - raise
+ # - reach
+ # - realise
+  - otrzymuj #receive
+  - rozpoznaj #recognise
+  - nagrywa #record
+  - redukuj #reduce
+  - odbija #reflect
+  - odmawia #refuse
+  - żałuj #regret
+ # - reign
+  - odrzuca #reject
   - rejoice
-  - relax
-  - release
-  - rely
-  - remain
-  - remember
-  - remind
-  - remove
-  - repair
-  - repeat
-  - replace
-  - reply
-  - report
-  - reproduce
-  - request
-  - rescue
-  - retire
-  - return
-  - rhyme
-  - rinse
-  - risk
-  - rob
-  - rock
-  - roll
-  - rot
-  - rub
-  - ruin
-  - rule
-  - rush
-  - sack
-  - sail
-  - satisfy
-  - save
-  - saw
-  - scare
-  - scatter
-  - scold
-  - scorch
-  - scrape
-  - scratch
-  - scream
-  - screw
-  - scribble
-  - scrub
-  - seal
-  - search
-  - separate
-  - serve
-  - settle
-  - shade
-  - share
-  - shave
-  - shelter
-  - shiver
-  - shock
-  - shop
-  - shriek
-  - shrug
-  - sigh
-  - sign
-  - signal
-  - sin
-  - sip
-  - ski
-  - skip
-  - slap
-  - slip
-  - slow
-  - smash
-  - smell
-  - smile
-  - smoke
-  - snatch
-  - sneeze
-  - sniff
-  - snore
-  - snow
-  - soak
-  - soothe
-  - sound
-  - spare
-  - spark
-  - sparkle
-  - spell
-  - spill
-  - spoil
-  - spot
-  - spray
-  - sprout
-  - squash
-  - squeak
-  - squeal
-  - squeeze
-  - stain
-  - stamp
-  - stare
-  - start
-  - stay
-  - steer
-  - step
-  - stir
-  - stitch
-  - stop
-  - store
-  - strap
-  - strengthen
-  - stretch
-  - stroke
-  - stuff
-  - subtract
-  - succeed
-  - suck
-  - suffer
-  - suggest
-  - suit
-  - supply
-  - support
-  - suppose
-  - surprise
-  - surround
-  - suspect
-  - suspend
-  - switch
-  - talk
-  - tame
-  - tap
-  - taste
-  - tease
-  - telephone
-  - tempt
-  - terrify
-  - test
-  - thank
-  - thaw
-  - tick
-  - tickle
-  - tie
-  - time
-  - tip
-  - tire
-  - touch
-  - tour
-  - tow
-  - trace
-  - trade
-  - train
-  - transport
-  - trap
-  - travel
-  - treat
-  - tremble
-  - trick
-  - trip
-  - trot
-  - trouble
-  - trust
-  - try
-  - tug
-  - tumble
-  - turn
-  - twist
-  - type
-  - unfasten
-  - unite
-  - unlock
-  - unpack
-  - untidy
-  - use
-  - vanish
-  - visit
-  - wail
-  - wait
-  - walk
-  - wander
-  - want
-  - warm
-  - warn
-  - wash
-  - waste
-  - watch
-  - water
-  - wave
-  - weigh
-  - welcome
-  - whine
-  - whip
-  - whirl
-  - whistle
-  - wink
-  - wipe
-  - wish
-  - wobble
-  - wonder
-  - work
-  - worry
-  - wrap
-  - wreck
-  - wrestle
-  - wriggle
-  - yawn
-  - yell
-  - zip
-  - zoom
+  - odpoczywa #relax
+  - wupuszcza #release
+  - polega #rely
+  - zostaw #remain
+  - pamięta #remember
+  - przypomina #remind
+  - usuwa #remove
+  - naprawia #repair
+  - powtarza #repeat
+  - zamienia #replace
+  - odpowiada #reply
+  - raportuj #report
+  - reprodukuje #reproduce
+  - zamawia #request
+  - ratuj #rescue
+  #- retire
+  - zwraca #return
+  #- rhyme
+  #- rinse
+  - ryzykuj #risk
+  - rabuje #rob
+  #- rock
+  #- roll
+  #- rot
+  #- rub
+  #- ruin
+  #- rule
+  #- rush
+  #- sack
+  #- sail
+  - spełnia #satisfy
+  - zapisuj #save
+  - piłuj #saw
+# - scare
+# - scatter
+# - scold
+# - scorch
+# - scrape
+# - scratch
+# - scream
+# - screw
+# - scribble
+# - scrub
+# - seal
+  - szuka #search
+#  - separate
+#  - serve
+#  - settle
+#  - shade
+#  - share
+#  - shave
+#  - shelter
+#  - shiver
+  - szkouj #shock
+  - kupowuj #shop
+#  - shriek
+  - wzrusza #shrug
+  - wzdycha #sigh
+#  - sign
+#  - signal
+  - grzesz #sin
+#  - sip
+#  - ski
+  - pomija #skip
+#  - slap
+#  - slip
+  - zwalnia #slow
+#  - smash
+  - pachnie #smell
+  - usmiacha #smile
+  - pali #smoke
+#  - snatch
+#  - sneeze
+  - wącha #sniff
+#  - snore
+#  - snow
+#  - soak
+#  - soothe
+#  - sound
+#  - spare
+#  - spark
+#  - sparkle
+#  - spell
+#  - spill
+#  - spoil
+#  - spot
+  - pryska #spray
+#  - sprout
+#  - squash
+#  - squeak
+#  - squeal
+  - ściska #squeeze
+#  - stain
+#  - stamp
+#  - stare
+#  - start
+#  - stay
+#  - steer
+#  - step
+#  - stir
+#  - stitch
+  - zatrzymuj #stop
+  - magazynuj #store
+#  - strap
+#  - strengthen
+#  - stretch
+#  - stroke
+#  - stuff
+#  - subtract
+#  - succeed
+  - ssie #suck
+#  - suffer
+  - sugeruj #suggest
+#  - suit
+  - uzupełnia #supply
+#  - support
+#  - suppose
+  - zaskakuj #surprise
+#  - surround
+#  - suspect
+#  - suspend
+#  - switch
+  - rozmawia #talk
+#  - tame
+#  - tap
+#  - taste
+#  - tease
+  - wydzwania #telephone
+#  - tempt
+#  - terrify
+  - testuj #test
+#  - thank
+#  - thaw
+#  - tick
+#  - tickle
+#  - tie
+#  - time
+#  - tip
+#  - tire
+  - dotyka #touch
+#  - tour
+#  - tow
+  - śledzi #trace
+  - chandluj #trade
+#  - train
+  - transporuj #transport
+  - łapie #trap
+  - podrużuj #travel
+  - grozi #treat
+#  - tremble
+#  - trick
+#  - trip
+#  - trot
+#  - trouble
+  - ufa #trust
+  - próbuj #try
+#  - tug
+#  - tumble
+  - obraca #turn
+#  - twist
+#  - type
+#  - unfasten
+#  - unite
+  - odblokowywuj #unlock
+  - rozpakowywuj #unpack
+#  - untidy
+  - używa #use
+#  - vanish
+  - odwiedza #visit
+#  - wail
+  - czeka #wait
+  - iś #walk
+  - wędruj #wander
+  - chce #want
+  - ogrzewa #warm
+  - ostrzega #warn
+  - myje #wash
+  - marnuj #waste
+  - patrz #watch
+  - nawadnia #water
+  - macha #wave
+  - waż #waży #weigh
+  - wita #welcome
+#  - whine
+#  - whip
+#  - whirl
+#  - whistle
+#  - wink
+#  - wipe
+  - życz #wish
+#  - wobble
+  - zastanawia #wonder
+  - pracuj #work
+  - martwi #worry
+#  - wrap
+#  - wreck
+#  - wrestle
+#  - wriggle
+#  - yawn
+#  - yell
+#  - zip
+#  - zoom
