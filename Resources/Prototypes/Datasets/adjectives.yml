@@ -2,405 +2,408 @@
 # SPDX-FileCopyrightText: 2024 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 M.A.Ł.P.A 
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
 - type: dataset
   id: adjectives
   values:
-  - adorable
-  - adventurous
-  - aggressive
-  - alert
-  - attractive
-  - average
-  - beautiful
-  - blue-eyed
-  - bloody
-  - blushing
-  - bright
-  - clean
-  - clear
-  - cloudy
-  - colorful
-  - crowded
-  - cute
-  - dark
-  - drab
-  - distinct
-  - dull
-  - elegant
-  - excited
-  - fancy
-  - filthy
-  - glamorous
-  - gleaming
-  - gorgeous
-  - graceful
-  - grotesque
-  - handsome
-  - homely
-  - light
-  - long
-  - magnificent
-  - misty
-  - motionless
-  - muddy
-  - old-fashioned
-  - plain
-  - poised
-  - precious
-  - quaint
-  - shiny
-  - smoggy
-  - sparkling
-  - spotless
-  - stormy
-  - strange
-  - ugly
-  - ugliest
-  - unsightly
-  - unusual
-  - wide-eyed
-  - alive
-  - annoying
-  - bad
-  - better
-  - beautiful
-  - brainy
-  - breakable
-  - busy
-  - careful
-  - cautious
-  - clever
-  - clumsy
-  - concerned
-  - crazy
-  - curious
-  - dead
-  - different
-  - difficult
-  - doubtful
-  - easy
-  - expensive
-  - famous
-  - fragile
-  - frail
-  - gifted
-  - helpful
-  - helpless
-  - horrible
-  - important
-  - impossible
-  - inexpensive
-  - innocent
-  - inquisitive
-  - modern
-  - mushy
-  - odd
-  - open
-  - outstanding
-  - poor
-  - powerful
-  - prickly
-  - puzzled
-  - real
-  - rich
-  - shy
-  - sleepy
-  - stupid
-  - super
-  - talented
-  - tame
-  - tender
-  - tough
-  - uninterested
-  - vast
-  - wandering
-  - wild
-  - wrong
-  - angry
-  - annoyed
-  - anxious
-  - arrogant
-  - ashamed
-  - awful
-  - bad
-  - bewildered
-  - black
-  - blue
-  - bored
-  - clumsy
-  - combative
-  - condemned
-  - confused
+#  - adorable
+  - przygodowy #adventurous
+  - agresywny #aggressive
+#  - alert
+  - atrakcyjny #attractive
+  - przeciętny #average
+  - piękny #beautiful
+#  - blue-eyed
+#  - bloody
+#  - blushing
+#  - bright
+  - czysty #clean
+  - jasno #clear
+  - pochmurnie #cloudy
+  - kolorowy #colorful
+  - zatłoczony #crowded
+  - uroczy #cute
+  - ciemny #dark
+# - drab
+# - distinct
+# - dull
+  - elegancki #elegant
+#  - excited
+#  - fancy
+#  - filthy
+#  - glamorous
+#  - gleaming
+#  - gorgeous
+#  - graceful
+#  - grotesque
+  - przystojny #handsome
+#  - homely
+#  - light
+#  - long
+#  - magnificent
+#  - misty
+#  - motionless
+#  - muddy
+#  - old-fashioned #duplikat
+#  - plain
+#  - poised
+#  - precious
+#  - quaint
+#  - shiny
+  - zanieczyszczony #smoggy
+#  - sparkling
+#  - spotless
+  - burzowy #stormy
+#  - strange
+  - brzydki #ugly
+  - najbrzydszy #ugliest
+#  - unsightly
+  - niezwykły #unusual
+#  - wide-eyed
+  - żywy #alive
+  - natrętny #annoying
+  - zły #bad
+  - lepszy #better
+  - piękny #beautiful
+#  - brainy
+  - zniszczalny #breakable
+  - zajęty #busy
+  - ostrożny #careful
+#  - cautious
+  - zmyślny #clever
+#  - clumsy
+#  - concerned
+  - szalony #crazy
+  - ciekawski #curious
+  - martwy #dead
+  - inny #different
+  - trudny #difficult
+#  - doubtful
+  - łatwny #easy
+  - kosztowny #expensive
+  - znany #famous
+#  - fragile
+#  - frail
+  - obdarowny #gifted
+  - uzdolniony #gifted
+  - pomocny #helpful
+ # - helpless
+ # - horrible
+  - #ważny #important
+  - niemożliwy #impossible
+  - niedrogi #inexpensive
+  - niewinny #innocent
+ # - inquisitive
+  - wspólczesny #modern
+ # - mushy
+ # - odd
+  - otwarty #open
+ # - outstanding
+  - biedny #poor
+  - potężny #powerful
+ # - prickly
+ # - puzzled
+  - rzeczywisty #real
+  - majętny #rich
+  - nieśmiały #shy
+  - senny #sleepy
+  - głupi #stupid
+ # - super
+  - utalnetowany #talented
+ # - tame
+ # - tender
+ # - tough
+ # - uninterested
+ # - vast
+ # - wandering
+ # - wild
+  - zły #wrong
+  - zezłoszczony #angry
+ # - annoyed
+ # - anxious
+  - arogancki #arrogant
+ # - ashamed
+ # - awful
+  - zły #bad
+#  - bewildered
+  - czarny #black
+  - niebieski #blue
+  - znudzony #bored
+#  - clumsy
+#  - combative
+#  - condemned
+  - zagubiony #confused
   - crazy,flipped-out
-  - creepy
-  - cruel
-  - dangerous
-  - defeated
-  - defiant
-  - depressed
-  - disgusted
-  - disturbed
-  - dizzy
-  - dull
-  - embarrassed
-  - envious
-  - evil
-  - fierce
-  - foolish
-  - frantic
-  - frightened
-  - grieving
-  - grumpy
-  - helpless
-  - homeless
-  - hungry
-  - hurt
-  - ill
-  - itchy
-  - jealous
-  - jittery
-  - lazy
-  - lonely
-  - mysterious
-  - nasty
-  - naughty
-  - nervous
-  - nutty
-  - obnoxious
-  - outrageous
-  - panicky
-  - repulsive
-  - scary
-  - selfish
-  - sore
-  - tense
-  - terrible
-  - testy
-  - thoughtless
-  - tired
-  - troubled
-  - upset
-  - uptight
-  - weary
-  - wicked
-  - worried
-  - agreeable
-  - amused
-  - brave
-  - calm
-  - charming
-  - cheerful
-  - comfortable
-  - cooperative
-  - courageous
-  - delightful
-  - determined
-  - eager
-  - elated
-  - enchanting
-  - encouraging
-  - energetic
-  - enthusiastic
-  - excited
-  - exuberant
-  - fair
-  - faithful
-  - fantastic
-  - fine
-  - friendly
-  - funny
-  - gentle
-  - glorious
-  - good
-  - happy
-  - healthy
-  - helpful
-  - hilarious
-  - jolly
-  - joyous
-  - kind
-  - lively
-  - lovely
-  - lucky
-  - nice
-  - obedient
-  - perfect
-  - pleasant
-  - proud
-  - relieved
-  - silly
-  - smiling
-  - splendid
-  - successful
-  - thankful
-  - thoughtful
-  - victorious
-  - vivacious
-  - witty
-  - wonderful
-  - zealous
-  - zany
-  - broad
-  - chubby
-  - crooked
-  - curved
-  - deep
-  - flat
-  - high
-  - hollow
-  - low
-  - narrow
-  - round
-  - shallow
-  - skinny
-  - square
-  - steep
-  - straight
-  - wide
-  - big
-  - colossal
-  - fat
-  - gigantic
-  - great
-  - huge
-  - immense
-  - large
-  - little
+  - dziwny #creepy
+#  - cruel
+  - niebezpieczny #dangerous
+  - pokonany #defeated
+#  - defiant
+  - depresyjny #depressed
+#  - disgusted
+#  - disturbed
+#  - dizzy
+#  - dull
+  - zawstwydzony #embarrassed
+#  - envious
+  - diabelny #evil
+#  - fierce
+#  - foolish
+#  - frantic
+#  - frightened
+#  - grieving
+#  - grumpy
+ # - helpless #duplikat
+  - bezdonmy #homeless
+  - głodny #hungry
+  - bolący #hurt
+  - chory #ill
+#  - itchy
+  - zazdrosny #jealous
+#  - jittery
+  - leniwy #lazy
+  - samotny  #lonely
+  - tarjemniczy #mysterious
+#  - nasty
+#  - naughty
+  - nerwowy #nervous
+#  - nutty
+#  - obnoxious
+#  - outrageous
+#  - panicky
+#  - repulsive
+  - przestraszony #scary
+  - samolubny #selfish
+#  - sore
+#  - tense
+  - tragiczny #terrible
+#  - testy
+#  - thoughtless
+  - zmęczony #tired
+#  - troubled
+  - niezadowolony #upset
+#  - uptight
+#  - weary
+#  - wicked
+  - zmartwiany #worried
+  - uzgodnialny #agreeable
+#  - amused
+#  - brave
+  - spokojny #calm
+#  - charming
+#  - cheerful
+  - wygodny #comfortable
+  - współpracujący #cooperative
+#  - courageous
+#  - delightful
+#  - determined
+#  - eager
+#  - elated
+  - zaklęty #enchanting
+#  - encouraging
+  - energetyczny #energetic
+  - entuzjastyczny #enthusiastic
+  - nabuzowany #excited
+#  - exuberant
+  - uczciwy #fair
+#  - faithful
+  - fantastyczny #fantastic
+  - niezły #fine
+  - przyjazny #friendly
+  - zabawny #funny
+  - kulturalny #gentle
+  - chwalebny #glorious
+  - dobry #good
+  - szcześliwy #happy
+  - zdrowy #healthy
+  #- helpful #duplikat
+#  - hilarious
+#  - jolly
+#  - joyous
+  - miły #kind
+#  - lively
+  - kochany #lovely
+  - szcześliwy #lucky
+  - fajny #nice
+#  - obedient
+  - doskonały #perfect
+#  - pleasant
+  - dumny #proud
+#  - relieved
+#  - silly
+  - usmiechnięty #smiling
+#  - splendid
+#  - successful
+#  - thankful
+#  - thoughtful
+#  - victorious
+#  - vivacious
+#  - witty
+#  - wonderful
+#  - zealous
+#  - zany
+#  - broad
+#  - chubby
+#  - crooked
+#  - curved
+#  - deep
+  - płaski #flat
+#  - high
+#  - hollow
+  - nieznaczne #low
+#  - narrow
+  - zaokrąglony #round
+#  - shallow
+#  - skinny
+#  - square
+#  - steep
+#  - straight
+#  - wide
+  - duży #big
+  - ogromny #colossal
+  - gruby #fat
+  - wielki #gigantic
+  - wspaniały #great
+  - spory #huge
+#  - immense
+  - ogromny #large
+  - maleńki #little
   - mammoth
-  - massive
-  - miniature
-  - petite
-  - puny
-  - scrawny
-  - short
-  - small
-  - tall
-  - teeny
-  - teeny-tiny
-  - tiny
-  - cooing
-  - deafening
-  - faint
-  - harsh
-  - high-pitched
-  - hissing
-  - hushed
-  - husky
-  - loud
-  - melodic
-  - moaning
-  - mute
-  - noisy
-  - purring
-  - quiet
-  - raspy
-  - resonant
-  - screeching
-  - shrill
-  - silent
-  - soft
-  - squealing
-  - thundering
-  - voiceless
-  - whispering
-  - ancient
-  - brief
-  - early
-  - fast
-  - late
-  - long
-  - modern
-  - old
-  - old-fashioned
-  - quick
-  - rapid
-  - short
-  - slow
-  - swift
-  - young
-  - bitter
-  - delicious
-  - fresh
-  - juicy
-  - ripe
-  - rotten
-  - salty
-  - sour
-  - spicy
-  - stale
-  - sticky
-  - strong
-  - sweet
-  - tart
-  - tasteless
-  - tasty
-  - thirsty
-  - fluttering
-  - fuzzy
-  - greasy
-  - grubby
-  - hard
-  - hot
-  - icy
-  - loose
-  - melted
-  - nutritious
-  - plastic
-  - prickly
-  - rainy
-  - rough
-  - scattered
-  - shaggy
-  - shaky
-  - sharp
-  - shivering
-  - silky
-  - slimy
-  - slippery
-  - smooth
-  - soft
-  - solid
-  - steady
-  - sticky
-  - tender
-  - tight
-  - uneven
-  - weak
-  - wet
-  - wooden
-  - yummy
-  - boiling
-  - breezy
-  - broken
-  - bumpy
-  - chilly
-  - cold
-  - cool
-  - creepy
-  - crooked
-  - cuddly
-  - curly
-  - damaged
-  - damp
-  - dirty
-  - dry
-  - dusty
-  - filthy
-  - flaky
-  - fluffy
-  - freezing
-  - hot
-  - warm
-  - wet
-  - abundant
-  - empty
-  - few
-  - heavy
-  - light
-  - many
-  - numerous
-  - substantial
-  - capitalist
+  - masywny #massive
+  - miniaturowy #miniature
+#  - petite
+#  - puny
+#  - scrawny
+  - niski #short
+  - mały #small
+  - wysoki #tall
+#  - teeny
+#  - teeny-tiny
+  - drobny #tiny
+ # - cooing
+ # - deafening
+ # - faint
+ # - harsh
+ # - high-pitched
+ # - hissing
+ # - hushed
+ # - husky
+ # - loud
+  - melodyczny #melodic
+ # - moaning
+ # - mute
+ # - noisy
+ # - purring
+  - cichy #quiet
+ # - raspy
+ # - resonant
+  - rozściągany #screeching
+ # - shrill
+  - niemy #silent
+  - mięki #soft
+ # - squealing
+ # - thundering
+  - bezgłośny #voiceless
+  - szepczący #whispering
+  #- ancient
+  #- brief
+  #- early
+  - szybki #fast
+ # - late
+ # - long
+  #- wspólczesny #modern #duplikat
+  - stary #old
+ # - staromodny #old-fashioned
+  - dynamiczny  #quick
+  - gwałtowny #rapid
+  - krótki #short
+  - wolny #slow
+ # - swift
+  - młody #young
+ # - bitter
+  - wysmienity #delicious
+  - świerzy #fresh
+ # - juicy
+ # - ripe
+  - zgniły #rotten
+  - słony #salty
+ # - sour
+  - ostry #spicy
+ # - stale
+ # - sticky
+ # - strong
+ # - sweet
+ # - tart
+  - bezsmakowy #tasteless
+ # - tasty
+ # - thirsty
+ # - fluttering
+ # - fuzzy
+ # - greasy
+ # - grubby
+ # - hard
+  - hot #gorący
+ # - icy
+ # - loose
+  - stopiony #melted
+ # - nutritious
+ # - plastic
+ # - prickly
+ # - rainy
+ # - rough
+ # - scattered
+ # - shaggy
+ # - shaky
+  - zaostrzony #sharp
+ # - shivering
+ # - silky
+ # - slimy
+ # - slippery
+ # - smooth
+ # - soft
+  - solidny #solid 1
+  - stały   #solid 2
+#  - steady
+#  - sticky
+#  - tender
+#  - tight
+#  - uneven
+  - słaby #weak
+  - mokry #wet
+  - drewniany #wooden
+  - smakowity #yummy
+  - gotowany #boiling
+#  - breezy
+  - zepsuty #broken
+#  - bumpy
+  - uspokojony #chilly
+  - zminy #cold
+#  - cool
+#  - creepy
+  - zagotowany #crooked
+#  - cuddly
+#  - curly
+  - zniszczony #damaged
+#  - damp
+  - brudny #dirty
+  - wysuszony #dry
+#  - dusty
+#  - filthy
+#  - flaky
+#  - fluffy
+  - zmarzliwy #freezing
+  - gorąco #hot
+  - ciepło #warm
+  #- wet # duplikat
+#  - abundant
+  - pusty #empty
+  - mało #few
+  - cieżki #heavy
+  - świetliście #light
+  - liczny #liczby
+  - numeryczny #numerous
+#  - substantial
+  - kapitanlist #kapitalistyczny
