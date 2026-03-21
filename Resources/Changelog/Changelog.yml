@@ -1,13 +1,4 @@
 ﻿Entries:
-- author: Coolsurf6
-  changes:
-  - message: Added the ability for a creature to be unable to feel pain
-    type: Add
-  - message: Added a Pain Numbness Trait to character creation.
-    type: Add
-  id: 7856
-  time: '2025-01-27T10:34:21.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34538
 - author: metalgearsloth
   changes:
   - message: Puddles will now draw below floor objects like vents.
@@ -4098,3 +4089,10 @@
   id: 9163
   time: '2026-03-09T23:17:16.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/526
+- author: Nikita
+  changes:
+  - message: "Przywr\xF3cono stare tekstury maski gazowej"
+    type: Tweak
+  id: 9164
+  time: '2026-03-21T12:24:21.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/531
