@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: august-sun
-  changes:
-  - message: Utility and CE belts can now hold the pAI and the handheld station map.
-    type: Tweak
-  id: 7858
-  time: '2025-01-27T18:48:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33048
 - author: ArtisticRoomba
   changes:
   - message: The Engineering Guidebook has been significantly revamped and is now
@@ -4096,3 +4089,17 @@
   id: 9165
   time: '2026-03-28T17:46:17.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/532
+- author: Nikita
+  changes:
+  - message: Dodano liczniki czasu do ewakuacji na Saltern.
+    type: Add
+  - message: "Dodano guziki do blokady drzwi w dormitoriach dla prywatno\u015Bci."
+    type: Add
+  - message: "Bro\u0144 Komendanta w jego pokoju teraz ma prawid\u0142ow\u0105 amunicj\u0119\
+      ."
+    type: Fix
+  - message: "Dodano dodatkow\u0105 mop\u0119 oraz guzik dla wo\u017Anego."
+    type: Add
+  id: 9166
+  time: '2026-03-29T10:48:49.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/534
