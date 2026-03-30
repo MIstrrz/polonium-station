@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: SlamBamActionman
-  changes:
-  - message: Hristov now provides an increased view range of 3 tiles when wielded.
-    type: Tweak
-  id: 7860
-  time: '2025-01-27T23:20:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31626
 - author: Kickguy223
   changes:
   - message: A new Syndicate and Thief togglable implant is available capable of Impersonating
@@ -4099,3 +4092,10 @@
   id: 9167
   time: '2026-03-29T12:05:54.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/535
+- author: Nikita
+  changes:
+  - message: "Moby z mutetoksyn\u0105 teraz nie krzycz\u0105 podczas operacji"
+    type: Fix
+  id: 9168
+  time: '2026-03-30T20:41:19.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/537
