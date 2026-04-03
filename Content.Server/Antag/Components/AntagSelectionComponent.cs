@@ -12,6 +12,7 @@
 // SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 // SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -218,6 +219,13 @@ public partial struct AntagSelectionDefinition()
     /// </remarks>
     [DataField]
     public EntProtoId? SpawnerPrototype;
+
+    /// <summary>
+    /// Goobstation
+    /// If not null, how much chaos should secret+ consider us to have per-antag.
+    /// </summary>
+    [DataField]
+    public float? ChaosScore = null;
 }
 
 /// <summary>

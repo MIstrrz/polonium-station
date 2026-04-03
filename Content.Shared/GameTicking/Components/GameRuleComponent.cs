@@ -7,6 +7,7 @@
 // SPDX-FileCopyrightText: 2024 deltanedas <39013340+deltanedas@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Mish <bluscout78@yahoo.com>
 // SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+// SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 //
 // SPDX-License-Identifier: MIT
 
@@ -47,6 +48,17 @@ public sealed partial class GameRuleComponent : Component
     /// </summary>
     [DataField]
     public MinMax? Delay;
+
+    // Goobstation
+    /// <summary>
+    ///   Used by SecretPlus to weight this event in addition to StationEventComponent's weight.
+    ///   In GameRuleComponent to be usable for roundstart events.
+    ///   See SecretPlus documentation for more information.
+    ///   If the event is fired, chaos will be adjusted by this value.
+    ///   Should not be null if this is fireable by SecretPlus, unless we have AntagSelectionComponent. There's an integration test for this, though.
+    /// </summary>
+    [DataField]
+    public float? ChaosScore = null;
 }
 
 /// <summary>

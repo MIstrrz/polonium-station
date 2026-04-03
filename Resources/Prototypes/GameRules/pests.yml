@@ -2,12 +2,15 @@
 # SPDX-FileCopyrightText: 2024 Tadeo <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 88tv <131759102+88tv@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Mish <bluscout78@yahoo.com>
+# SPDX-FileCopyrightText: 2025 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 SigmaTheDragon <162711378+SigmaTheDragon@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Velken <8467292+Velken@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 empty0set <16693552+empty0set@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 empty0set <empty0set@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2025 thepinkscreen <76622775+thepinkscreen@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -42,6 +45,10 @@
     earliestStart: 15
     weight: 6
     duration: 30 # DeltaV: was 50, used as a delay now
+    eventType: Neutral # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 20
   - type: VentCrittersRule
     min: 10 # DeltaV
     max: 15 # DeltaV
@@ -70,6 +77,10 @@
     weight: 6
     duration: 30 # DeltaV: was 50, used as a delay now
     minimumPlayers: 30 # Hopefully this is enough for the Rat King's potential Army (it was not, raised from 15 -> 30)
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 25
   - type: VentCrittersRule
     min: 10 # DeltaV
     max: 20 # DeltaV
@@ -82,7 +93,7 @@
     specialEntries:
     - id: SpawnPointGhostRatKing
       prob: 0.001
-    
+
 # Funky Start
 - type: entity
   id: MiniDragonMigration
@@ -93,6 +104,10 @@
     weight: 3
     duration: 20
     minimumPlayers: 1
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 25
   - type: VentCrittersRule
     min: 1 # DeltaV
     max: 3 # DeltaV
@@ -112,6 +127,9 @@
       path: /Audio/_Polonium/Announcements/attention.ogg
     weight: 6
     duration: 30 # DeltaV: was 50, used as a delay now
+    eventType: Neutral # Goobstation
+  - type: GameRule
+    chaosScore: 20
   - type: VentCrittersRule
     min: 8 # DeltaV
     max: 20 # DeltaV
@@ -135,6 +153,10 @@
       path: /Audio/_Polonium/Announcements/attention.ogg
     weight: 6
     duration: 30 # DeltaV: was 50, used as a delay now
+    eventType: Neutral # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 20
   - type: VentCrittersRule
     min: 4 # DeltaV
     max: 8 # DeltaV
@@ -157,6 +179,10 @@
     weight: 6
     duration: 30 # DeltaV: was 50, used as a delay now
     minimumPlayers: 30
+    eventType: Chaotic # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 30
   - type: VentCrittersRule
     playerRatio: 20 # DeltaV: Snails aren't dangerous, but they should be more special
     table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries

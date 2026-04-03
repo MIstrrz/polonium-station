@@ -12,6 +12,7 @@
 # SPDX-FileCopyrightText: 2025 empty0set <empty0set@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -37,6 +38,9 @@
       path: /Audio/Announcements/intercept.ogg
     duration: null
     occursDuringRoundEnd: false
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 400
   - type: AlertLevelInterceptionRule
   - type: AntagSelection
     selectionTime: PostPlayerSpawn
@@ -59,6 +63,9 @@
       path: /Audio/Announcements/intercept.ogg
     duration: null
     occursDuringRoundEnd: false
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 600
   - type: AlertLevelInterceptionRule
   - type: AntagSelection
     selectionTime: PostPlayerSpawn
@@ -81,6 +88,9 @@
       path: /Audio/Announcements/intercept.ogg
     duration: null
     occursDuringRoundEnd: false
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 500
   - type: AlertLevelInterceptionRule
   - type: AntagSelection
     selectionTime: PostPlayerSpawn
@@ -102,6 +112,9 @@
     maxOccurrences: 1
     duration: null
     occursDuringRoundEnd: false
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 900
   - type: AntagSelection
     selectionTime: PostPlayerSpawn
 
@@ -118,6 +131,9 @@
     weight: 5
     duration: 1
     minimumPlayers: 15
+    eventType: Chaotic
+  - type: GameRule
+    chaosScore: 150
   - type: RandomEntityStorageSpawnRule
     prototype: MobSkeletonCloset
 
@@ -136,6 +152,10 @@
     earliestStart: 30
     minimumPlayers: 20
     duration: null
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 600
   - type: SpaceSpawnRule
     spawnDistance: 0
   - type: AntagSpawner
@@ -170,6 +190,10 @@
     duration: null
     earliestStart: 30
     minimumPlayers: 30
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 300
   - type: SpaceSpawnRule
   - type: AntagLoadProfileRule
     speciesOverride: Human # funkystation
@@ -227,6 +251,10 @@
     duration: 1
     earliestStart: 45
     minimumPlayers: 20
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 450
   - type: RandomSpawnRule
     prototype: MobRevenant
 
@@ -245,6 +273,10 @@
     minimumPlayers: 40
     weight: 1 # Zombies was happening basically every single survival round, so now it's super rare
     duration: 1
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 1400
   - type: ZombieRule
   - type: AntagSelection
     definitions:
@@ -284,6 +316,10 @@
     weight: 5.5
     minimumPlayers: 20
     duration: 1
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 700
   - type: RuleGrids
   - type: LoadMapRule
     mapPath: /Maps/_Goobstation/Nonstations/nukieplanet.yml # goob edit
@@ -327,6 +363,10 @@
     weight: 6
     duration: 50
     minimumPlayers: 30 # Hopefully this is enough for the Rat King's potential Army (it was not, raised from 15 -> 30)
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 25
   - type: VentCrittersRule
     min: 10 # DeltaV
     max: 20 # DeltaV
@@ -356,6 +396,9 @@
     minimumPlayers: 20
     duration: null
     maxOccurrences: 2
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 1100
   - type: BlobSpawnRule
     carrierBlobProtos:
     - SpawnPointGhostBlobRat

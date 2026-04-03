@@ -13,6 +13,8 @@
 # SPDX-FileCopyrightText: 2025 misghast <51974455+misterghast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Wudanty <68469194+Wudanty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Wudanty <wudanty@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
@@ -39,6 +41,7 @@
     - prefRoles: [ Changeling ]
       max: 5
       playerRatio: 30
+      chaosScore: 200
       lateJoinAdditional: true
       mindRoles:
       - MindRoleChangeling
@@ -190,6 +193,8 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: BlobRule
+  - type: GameRule
+    chaosScore: 1000
 
 - type: entity
   id: BlobGameMode
@@ -199,6 +204,7 @@
   - type: BlobRule
   - type: GameRule
     minPlayers: 15
+    chaosScore: 1000
     delay: # 7-10 minutes
       min: 420
       max: 600
@@ -240,6 +246,9 @@
       Power: 70
       Medical: 70
       Atmos: 70
+    eventType: HostilesSpawn
+  - type: GameRule
+    chaosScore: 1000
   - type: BlobSpawnRule
     carrierBlobProtos:
     - SpawnPointGhostBlobRat
