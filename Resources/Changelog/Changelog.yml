@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: themias
-  changes:
-  - message: Fixed precision attack animation for thrust weapons
-    type: Fix
-  id: 7866
-  time: '2025-01-29T10:11:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34713
 - author: yuitop
   changes:
   - message: Sentient medibots can now properly inject.
@@ -4094,3 +4087,10 @@
   id: 9173
   time: '2026-04-08T16:49:30.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/545
+- author: Zintex
+  changes:
+  - message: "Dodano niewidzialny kad\u0142ub i pod\u0142og\u0119"
+    type: Add
+  id: 9174
+  time: '2026-04-08T19:00:57.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/546
