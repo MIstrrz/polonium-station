@@ -51,6 +51,8 @@
 # SPDX-FileCopyrightText: 2025 pa.pecherskij <pa.pecherskij@interfax.ru>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -174,6 +176,7 @@
       min: 1
       max: 1     # fixed a lot of things. Commanders currently spawn en masse on Funky, so this limits the values to ensure that does not happen.
       startingGear: SyndicateCommanderGearFull
+      chaosScore: 300 # Goobstation
       roleLoadout:
       - RoleSurvivalNukie
       components:
@@ -192,6 +195,7 @@
       spawnerPrototype: SpawnPointNukeopsMedic
       max: 1
       startingGear: SyndicateOperativeMedicFull
+      chaosScore: 300 # Goobstation
       roleLoadout:
       - RoleSurvivalNukie
       components:
@@ -211,6 +215,7 @@
       max: 3
       playerRatio: 8
       startingGear: SyndicateOperativeGearFull
+      chaosScore: 300 # Goobstation
       roleLoadout:
       - RoleSurvivalNukie
       components:
@@ -255,6 +260,7 @@
     - prefRoles: [ Traitor ]
       max: 8
       playerRatio: 10
+      chaosScore: 150 # Goobstation
       blacklist:
         components:
         - AntagImmune
@@ -281,6 +287,7 @@
   components:
   - type: GameRule
     minPlayers: 20
+    chaosScore: 1000 # Goobstation - intentionally not per-antag
   - type: RevolutionaryRule
   - type: AntagSelection
     selectionTime: IntraPlayerSpawn # Goobstation
@@ -335,6 +342,7 @@
   components:
   - type: GameRule
     minPlayers: 10
+    chaosScore: 2000
   - type: AntagSelection
     agentName: wizard-round-end-name
     selectionTime: PrePlayerSpawn
@@ -375,6 +383,7 @@
     delay:
       min: 600
       max: 900
+    chaosScore: 1000
   - type: ZombieRule
     infectionSpreadMultiplier: 1.0
   - type: AntagSelection
@@ -395,6 +404,7 @@
     delay:
       min: 600
       max: 900
+    chaosScore: 800
   - type: ZombieRule
     infectionSpreadMultiplier: 0.5
   - type: AntagSelection
@@ -415,6 +425,7 @@
     delay:
       min: 600
       max: 900
+    chaosScore: 1200
   - type: ZombieRule
     infectionSpreadMultiplier: 2.0
   - type: AntagSelection

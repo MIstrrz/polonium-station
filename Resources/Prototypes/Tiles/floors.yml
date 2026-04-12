@@ -53,6 +53,7 @@
 # SPDX-FileCopyrightText: 2025 Tay <td12233a@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -690,6 +691,65 @@
   footstepSounds:
     collection: FootstepTile
   itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+  tileRipResistance: 50
+
+# Funky - New Tiles
+
+- type: tile
+  id: FloorSmoothSteel
+  name: tiles-steel-floor-smooth
+  sprite: /Textures/_Funkystation/Tiles/smooth.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 10000
+  tileRipResistance: 50
+
+- type: tile
+  id: FloorDarkTech
+  name: tiles-dark-floor-tech
+  sprite: /Textures/_Funkystation/Tiles/dark_tech.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDark
+  heatCapacity: 10000
+  tileRipResistance: 50
+
+- type: tile
+  id: FloorDarkMonoTextured
+  name: tiles-dark-floor-mono-textured
+  sprite: /Textures/_Funkystation/Tiles/dark_mono_textured.png
+  variants: 4
+  placementVariants:
+  - 1.0
+  - 1.0
+  - 1.0
+  - 1.0
+  baseTurf: Plating
+  isSubfloor: false
+  deconstructTools: [ Prying ]
+  footstepSounds:
+    collection: FootstepTile
+  itemDrop: FloorTileItemDarkMono
   heatCapacity: 10000
   tileRipResistance: 50
 
@@ -1996,6 +2056,34 @@
   footstepSounds:
     collection: FootstepHull
   itemDrop: PartRodMetal1 #same case as FloorHull
+
+# Invisible floor tiles - Polonium
+- type: tile
+  id: FloorHullInvisible
+  name: tiles-hull-invisible
+  sprite: /Textures/Tiles/invisible.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepHull
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 100000
+  indestructible: true
+  reinforced: true
+
+- type: tile
+  id: FloorInvisible
+  name: tiles-invisible-floor
+  sprite: /Textures/Tiles/invisible.png
+  baseTurf: Plating
+  isSubfloor: false
+  footstepSounds:
+    collection: FootstepFloor
+  itemDrop: FloorTileItemSteel
+  heatCapacity: 100000
+  indestructible: true
+  reinforced: true
+  tileRipResistance: 45000
 
 # Faux sci tiles
 

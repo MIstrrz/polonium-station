@@ -6,33 +6,31 @@ Space Station 14 to remake SS13 działający na [Robust Toolbox](https://github.
 
 To jest polska wersja gry, oparta na repozytorium [Funky Station](https://github.com/funky-station/funky-station).
 
-Aby zapobiec forkom RobustToolbox, klient i serwer ładują paczkę "content". Ta paczka zawiera wszystko, co potrzebne do gry na jednym konkretnym serwerze.
+Aby zapobiec forkom RobustToolbox, klient i serwer ładują paczkę "Content". Ta paczka zawiera wszystko, co potrzebne do gry na jednym konkretnym serwerze.
 
 Jeśli chcesz hostować lub tworzyć zawartość dla SS14, to właśnie to repozytorium jest ci potrzebne. Zawiera zarówno RobustToolbox, jak i paczkę content do rozwoju nowych paczek zawartości.
 
 ## Linki
 
-<div class="header" align="center">
+<div align="center">
 
-[Strona WWW](https://spacestation14.com/) | [Discord](https://discord.ss14.io/) | [Forum](https://forum.spacestation14.com/) | [Mastodon](https://mastodon.gamedev.place/@spacestation14) | [Lemmy](https://lemmy.spacestation14.com/) | [Patreon](https://www.patreon.com/spacestation14) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/) | [Pobierz wersję standalone](https://spacestation14.com/about/nightlies/)
+[Strona WWW](https://ss14.pl/) | [Discord](https://discord.ss14.pl/) | [Wiki](https://wiki.ss14.pl/) | [Pobierz grę](https://ss14.pl/#download)
 
 </div>
 
 ## Dokumentacja/Wiki
 
-Nasza [strona z dokumentacją](https://docs.spacestation14.com/) zawiera informacje o zawartości SS14, silniku, projektowaniu gry i nie tylko.
+[Strona z dokumentacją autorstwa Wizden](https://docs.spacestation14.com/) zawiera informacje w języku angielskim o zawartości SS14, silniku, projektowaniu gry i nie tylko.
 Dodatkowo, zobacz te zasoby dotyczące licencji i atrybucji:
 - [Robust Generic Attribution](https://docs.spacestation14.com/en/specifications/robust-generic-attribution.html)
 - [Robust Station Image](https://docs.spacestation14.com/en/specifications/robust-station-image.html)
 
-Mamy też wiele materiałów dla nowych kontrybutorów projektu.
-
 ## Wkład w projekt
 
-Chętnie przyjmujemy wkład od każdego. Dołącz na Discord, jeśli chcesz pomóc. Mamy [listę zadań](https://github.com/space-wizards/space-station-14-content/issues), które trzeba wykonać, i każdy może je podjąć. Nie bój się pytać o pomoc!
-Upewnij się tylko, że twoje zmiany i pull requesty są zgodne z [wytycznymi dotyczącymi kontrybucji](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html).
+Chętnie przyjmujemy wkład od każdego. Dołącz na Discord, jeśli chcesz pomóc. Mamy [listę zadań](https://github.com/polonium14/polonium-station/issues), które trzeba wykonać, i każdy może je podjąć. Nie bój się pytać o pomoc!
 
-Obecnie nie przyjmujemy tłumaczeń gry w naszym głównym repozytorium. Jeśli chcesz przetłumaczyć grę na inny język, rozważ stworzenie forka lub kontrybuowanie do istniejącego forka.
+> [!TIP]
+> Zalecamy zapoznanie się z **[wytycznymi dotyczącymi kontrybucji](https://github.com/polonium14/polonium-station/blob/master/CONTRIBUTING.md)**, ponieważ zawierają one wiele przydatnych informacji dla nowych kontrybutorów.
 
 ## Budowanie
 
