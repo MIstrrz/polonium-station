@@ -1,5 +1,7 @@
 # SPDX-FileCopyrightText: 2025 AftrLite
 # SPDX-FileCopyrightText: 2026 AftrLite <61218133+AftrLite@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -47,9 +49,12 @@
   parent: BaseStationEvent
   components:
   - type: StationEvent
-    weight: 5.5
+    weight: 0.4 #this should be rare to throw people off, otherwise it happens every shift
+    eventType: Neutral
     reoccurrenceDelay: 50
     minimumPlayers: 25
     duration: 20
     occursDuringRoundEnd: false
+  - type: GameRule
+    chaosScore: -50
   - type: MalignRiftSpawnRule

@@ -81,6 +81,8 @@
 # SPDX-FileCopyrightText: 2025 deltanedas <@deltanedas:kde.org>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -1568,11 +1570,10 @@
 # Mime
 
 - type: entity
-  id: WallInvisible
+  id: WallInvisibleBase
   name: invisible wall
+  abstract: true
   components:
-  - type: TimedDespawn
-    lifetime: 15
   - type: Tag
     tags:
       - Wall
@@ -1589,6 +1590,25 @@
         layer:
         - GlassLayer
   - type: Airtight
+
+- type: entity
+  id: WallInvisiblePermanent
+  name: invisible wall
+  suffix: permanent
+  parent: [WallInvisibleBase, MarkerBase]
+  components:
+  - type: Sprite
+    layers:
+    - state: blue
+
+- type: entity
+  id: WallInvisible
+  name: invisible wall
+  parent: WallInvisibleBase
+  suffix: temporary
+  components:
+  - type: TimedDespawn
+    lifetime: 15
 
 - type: entity
   id: WallForce

@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
+# SPDX-FileCopyrightText: 2026 Nikita (Nick) <174215049+nikitosych@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2026 Polonium-bot <admin@ss14.pl>
 # SPDX-FileCopyrightText: 2026 nikitosych <174215049+nikitosych@users.noreply.github.com>
 #
@@ -16,6 +18,10 @@
     minimumPlayers: 5
     reoccurrenceDelay: 25
     earliestStart: 20
+    eventType: HostilesSpawn # Goobstation
+  # Goobstation
+  - type: GameRule
+    chaosScore: 200
   - type: RandomEntityStorageSpawnRule
     prototype: MobCowiekMaupa
     openStorageSound: /Audio/_Polonium/Effects/Jumpscare/jumpscare1.ogg

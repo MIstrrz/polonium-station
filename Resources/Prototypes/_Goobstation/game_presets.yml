@@ -13,6 +13,7 @@
 # SPDX-FileCopyrightText: 2025 Terkala <appleorange64@gmail.com>
 # SPDX-FileCopyrightText: 2025 misghast <51974455+misterghast@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 taydeo <td12233a@gmail.com>
+# SPDX-FileCopyrightText: 2026 Damian Zieliński <zientasek.pl@gmail.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later AND MIT
 
@@ -31,7 +32,7 @@
     - BasicStationEventScheduler
     - MeteorSwarmScheduler
     - BasicRoundstartVariation
-    
+
 - type: gamePreset
   id: SecretChangeling
   alias:
@@ -77,7 +78,7 @@
     - BasicStationEventScheduler
     - MeteorSwarmScheduler
     - BasicRoundstartVariation
-    
+
 - type: gamePreset
   id: NukeTraitor
   alias:
@@ -192,3 +193,69 @@
   minPlayers: 25
   rules:
     - CombatDynamic
+
+- type: gamePreset
+  id: SecretPlusLow
+  alias:
+  - secretpluslow
+  - secretpluscalm
+  - turbulence
+  name: secretplus-low-title
+  description: secretplus-low-description
+  showInVote: true
+  rules:
+  - SecretPlusLow
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: SecretPlusMid
+  alias:
+  - secretplusmid
+  - secretplus
+  - entropy
+  name: secretplus-mid-title
+  description: secretplus-mid-description
+  showInVote: true
+  rules:
+  - SecretPlusMid
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: SecretPlusMidHigh
+  alias:
+  - secretplusmidhigh
+  - secretpluslowpop
+  - secretplusmidchaos
+  name: secretplus-midhigh-title
+  description: secretplus-midhigh-description
+  showInVote: true
+  rules:
+  - SecretPlusMidHigh
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: SurvivalPlusMid
+  alias:
+  - survivalplus
+  - newsurvival
+  - survivalnew
+  name: survivalplus-title
+  description: survivalplus-description
+  showInVote: true
+  rules:
+  - SecretPlusRampingMid
+  - BasicRoundstartVariation
+
+- type: gamePreset
+  id: SecretPlusAdmeme
+  alias:
+  - secretplusadmeme
+  - secretplusevil
+  - secretplushigh
+  - chaos
+  name: secretplus-admeme-title
+  description: secretplus-admeme-description
+  showInVote: false # 1984
+  rules:
+  - SecretPlusAdmeme
+  - BasicRoundstartVariation

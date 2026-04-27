@@ -1,94 +1,4 @@
 ﻿Entries:
-- author: Coolsurf6
-  changes:
-  - message: Added the ability for a creature to be unable to feel pain
-    type: Add
-  - message: Added a Pain Numbness Trait to character creation.
-    type: Add
-  id: 7856
-  time: '2025-01-27T10:34:21.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34538
-- author: metalgearsloth
-  changes:
-  - message: Puddles will now draw below floor objects like vents.
-    type: Fix
-  id: 7857
-  time: '2025-01-27T12:44:17.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32369
-- author: august-sun
-  changes:
-  - message: Utility and CE belts can now hold the pAI and the handheld station map.
-    type: Tweak
-  id: 7858
-  time: '2025-01-27T18:48:47.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33048
-- author: ArtisticRoomba
-  changes:
-  - message: The Engineering Guidebook has been significantly revamped and is now
-      mostly up to date.
-    type: Add
-  - message: Most Atmospherics and Engineering-related devices and equipment now have
-      a link to their relevant guidebook entry upon examine.
-    type: Add
-  id: 7859
-  time: '2025-01-27T19:42:27.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33062
-- author: SlamBamActionman
-  changes:
-  - message: Hristov now provides an increased view range of 3 tiles when wielded.
-    type: Tweak
-  id: 7860
-  time: '2025-01-27T23:20:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/31626
-- author: Kickguy223
-  changes:
-  - message: A new Syndicate and Thief togglable implant is available capable of Impersonating
-      a Mindshield
-    type: Add
-  - message: All implants will now inform you if an implant is already present after
-      the attempt instead of before
-    type: Tweak
-  id: 7861
-  time: '2025-01-28T02:37:46.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34079
-- author: ArtisticRoomba
-  changes:
-  - message: Frezon prices have been tweaked to be much more worth it for new players
-      and elder atmosians alike.
-    type: Tweak
-  id: 7862
-  time: '2025-01-28T17:31:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34049
-- author: K-Dynamic
-  changes:
-  - message: Stun batons play thrusting instead of wide swing animation on precise
-      attacks (LMB).
-    type: Tweak
-  id: 7863
-  time: '2025-01-28T18:55:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34693
-- author: Emisse
-  changes:
-  - message: Drozd sprites have been updated.
-    type: Tweak
-  id: 7864
-  time: '2025-01-29T08:41:45.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34574
-- author: Southbridge
-  changes:
-  - message: The Nuke will now reset to a minimum countdown value when disarmed if
-      the countdown is below the minimum value.
-    type: Tweak
-  id: 7865
-  time: '2025-01-29T09:04:48.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34734
-- author: themias
-  changes:
-  - message: Fixed precision attack animation for thrust weapons
-    type: Fix
-  id: 7866
-  time: '2025-01-29T10:11:08.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34713
 - author: yuitop
   changes:
   - message: Sentient medibots can now properly inject.
@@ -4098,3 +4008,89 @@
   id: 9163
   time: '2026-03-09T23:17:16.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/526
+- author: Nikita
+  changes:
+  - message: "Przywr\xF3cono stare tekstury maski gazowej"
+    type: Tweak
+  id: 9164
+  time: '2026-03-21T12:24:21.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/531
+- author: zintex
+  changes:
+  - message: Zaktualizowano prawo kosmiczne
+    type: Tweak
+  id: 9165
+  time: '2026-03-28T17:46:17.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/532
+- author: Nikita
+  changes:
+  - message: Dodano liczniki czasu do ewakuacji na Saltern.
+    type: Add
+  - message: "Dodano guziki do blokady drzwi w dormitoriach dla prywatno\u015Bci."
+    type: Add
+  - message: "Bro\u0144 Komendanta w jego pokoju teraz ma prawid\u0142ow\u0105 amunicj\u0119\
+      ."
+    type: Fix
+  - message: "Dodano dodatkow\u0105 mop\u0119 oraz guzik dla wo\u017Anego."
+    type: Add
+  id: 9166
+  time: '2026-03-29T10:48:49.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/534
+- author: Nikita
+  changes:
+  - message: "Pacyfi\u015Bci mog\u0105 teraz u\u017Cywa\u0107 og\u0142uszaczy i tasera"
+    type: Tweak
+  id: 9167
+  time: '2026-03-29T12:05:54.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/535
+- author: Nikita
+  changes:
+  - message: "Moby z mutetoksyn\u0105 teraz nie krzycz\u0105 podczas operacji"
+    type: Fix
+  id: 9168
+  time: '2026-03-30T20:41:19.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/537
+- author: Zintex
+  changes:
+  - message: Dodano tryby gry Secret+ i Survival+
+    type: Add
+  id: 9169
+  time: '2026-04-03T07:44:21.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/533
+- author: Zintex
+  changes:
+  - message: "Dodano teksty na koniec rundy: \"ale urwa\u0142\" i \"jestem hardkorem\""
+    type: Add
+  id: 9170
+  time: '2026-04-03T07:42:52.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/538
+- author: Szyszkrzyneczka
+  changes:
+  - message: Pompowanie strzelby na klawisz Z zamiast spacji
+    type: Tweak
+  id: 9171
+  time: '2026-04-06T11:33:35.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/540
+- author: Szyszkrzyneczka
+  changes:
+  - message: "Usuni\u0119to bug dotycz\u0105cy wk\u0142adania przylepianych bomb do\
+      \ magazynk\xF3w, kt\xF3re s\u0105 pe\u0142ne"
+    type: Fix
+  id: 9172
+  time: '2026-04-06T20:12:06.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/543
+- author: Szyszkrzyneczka
+  changes:
+  - message: "W\u0142o\u017Cenie sztabki plazmy do przecinarki plazmowej ju\u017C\
+      \ nie crashuje serwera"
+    type: Fix
+  id: 9173
+  time: '2026-04-08T16:49:30.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/545
+- author: Zintex
+  changes:
+  - message: "Dodano niewidzialny kad\u0142ub i pod\u0142og\u0119"
+    type: Add
+  id: 9174
+  time: '2026-04-08T19:00:57.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/546
