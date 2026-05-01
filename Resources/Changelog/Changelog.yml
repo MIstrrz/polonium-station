@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Starbuckss14
-  changes:
-  - message: New borg names
-    type: Add
-  id: 7869
-  time: '2025-01-29T10:35:22.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32502
 - author: thetolbean
   changes:
   - message: Traitors now have access to a Syndicate Radio Implanter, allowing covert
@@ -4090,3 +4083,10 @@
   id: 9176
   time: '2026-05-01T10:21:32.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/551
+- author: Zintex
+  changes:
+  - message: Aktualizacja Saltern
+    type: Tweak
+  id: 9177
+  time: '2026-05-01T15:33:29.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/550
