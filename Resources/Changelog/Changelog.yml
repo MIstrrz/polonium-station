@@ -1,39 +1,4 @@
 ﻿Entries:
-- author: yuitop
-  changes:
-  - message: Sentient medibots can now properly inject.
-    type: Tweak
-  id: 7867
-  time: '2025-01-29T10:34:01.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32110
-- author: jamessimo
-  changes:
-  - message: Criminal Records computer got enhanced UX & UI.
-    type: Tweak
-  - message: Criminal Records computer can now filter its list against crew criminal
-      status.
-    type: Tweak
-  - message: Criminal Records computer will now announce the suspects Job next to
-      their name.
-    type: Tweak
-  id: 7868
-  time: '2025-01-29T10:34:49.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32352
-- author: Starbuckss14
-  changes:
-  - message: New borg names
-    type: Add
-  id: 7869
-  time: '2025-01-29T10:35:22.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/32502
-- author: thetolbean
-  changes:
-  - message: Traitors now have access to a Syndicate Radio Implanter, allowing covert
-      communications on the Syndicate channel without a headset.
-    type: Add
-  id: 7870
-  time: '2025-01-30T00:14:00.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33533
 - author: Spessmann
   changes:
   - message: Added Convex recreational complex, a large service-oriented highpop map.
@@ -4094,3 +4059,33 @@
   id: 9174
   time: '2026-04-08T19:00:57.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/546
+- author: Nikita
+  changes:
+  - message: <:patrz:1474514530066239520>
+    type: Add
+  id: 9175
+  time: '2026-04-11T16:59:27.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/547
+- author: Zintex
+  changes:
+  - message: VIS MPS w wyborze startowej broni ochrony
+    type: Add
+  - message: "Zaktualizowano wyposa\u017Cenie Brigmeda."
+    type: Tweak
+  id: 9176
+  time: '2026-05-01T10:21:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/551
+- author: Zintex
+  changes:
+  - message: Aktualizacja Saltern
+    type: Tweak
+  id: 9177
+  time: '2026-05-01T15:33:29.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/550
+- author: Zintex
+  changes:
+  - message: Poprawki po aktualizacji saltern
+    type: Fix
+  id: 9178
+  time: '2026-05-02T10:08:00.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/552
