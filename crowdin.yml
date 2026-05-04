@@ -1,5 +1,5 @@
 files:
   - source: /Resources/Locale/en-US/**/*.ftl
-    translation: /Resources/Locale//%locale%/**//%original_file_name%
     ignore:
-      - /Resources/Locale/**/datasets/**
+      - /Resources/Locale/en-US/datasets/
+    translation: /Resources/Locale//%locale%/**//%original_file_name%
