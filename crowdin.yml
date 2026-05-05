@@ -3,3 +3,4 @@ files:
     ignore:
       - /Resources/Locale/en-US/datasets/
     translation: /Resources/Locale//%locale%/**//%original_file_name%
+    update_option: update_without_changes
