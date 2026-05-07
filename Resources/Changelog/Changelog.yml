@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: beck-thompson
-  changes:
-  - message: Ore rocks now drop the correct amount of ore when mined.
-    type: Fix
-  id: 7880
-  time: '2025-01-30T17:48:11.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34557
 - author: keronshb
   changes:
   - message: Added Void's Applause! A Wizard Spell that switches your location with
@@ -4073,3 +4066,11 @@
   id: 9187
   time: '2026-05-05T12:33:18.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/562
+- author: Zintex
+  changes:
+  - message: "Nowe, oddzielne tekstury \u015Bluz wo\u017Anego oraz specjalist\xF3\
+      w odzysku."
+    type: Add
+  id: 9188
+  time: '2026-05-07T18:16:28.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/572
