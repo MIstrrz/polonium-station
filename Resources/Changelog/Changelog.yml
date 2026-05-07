@@ -1,46 +1,4 @@
 ﻿Entries:
-- author: Velken
-  changes:
-  - message: Mixing opposite types of lizard juices now has explosive consequences.
-    type: Add
-  id: 7875
-  time: '2025-01-30T11:34:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34730
-- author: SpaceRox1244
-  changes:
-  - message: Massive scrap can now fit in bags of holding.
-    type: Tweak
-  id: 7876
-  time: '2025-01-30T12:06:41.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33454
-- author: sleepyyapril
-  changes:
-  - message: Fixed double muzzle flash for the user.
-    type: Fix
-  id: 7877
-  time: '2025-01-30T13:34:05.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33981
-- author: BarryNorfolk
-  changes:
-  - message: Added a history tab to the bounty computer, showing all past completed
-      and skipped orders (and who skipped them).
-    type: Add
-  id: 7878
-  time: '2025-01-30T17:27:36.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33932
-- author: K-Dynamic
-  changes:
-  - message: The Kammerer now holds 7 shells but now fires slightly slower than other
-      shotguns.
-    type: Tweak
-  - message: The Double-Barreled Shotgun and its sawn-off counterpart now share the
-      same firerate.
-    type: Tweak
-  - message: Changed descriptions of the Kammerer, Enforcer and Bulldog.
-    type: Tweak
-  id: 7879
-  time: '2025-01-30T17:36:12.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/33512
 - author: beck-thompson
   changes:
   - message: Ore rocks now drop the correct amount of ore when mined.
@@ -4078,3 +4036,40 @@
   id: 9182
   time: '2026-05-04T07:12:55.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/556
+- author: Zintex
+  changes:
+  - message: "Poprawiona \u015Bcie\u017Cka do tekstury szklanych \u015Bluz centralnego\
+      \ dow\xF3dztwa"
+    type: Fix
+  id: 9183
+  time: '2026-05-07T15:31:13.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/571
+- author: Zintex
+  changes:
+  - message: "Zmieniono wymogi czasowe dla r\xF3l"
+    type: Tweak
+  id: 9184
+  time: '2026-05-05T12:32:57.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/563
+- author: Zintex
+  changes:
+  - message: Zaktualizowano Atlas
+    type: Tweak
+  id: 9185
+  time: '2026-05-07T15:31:32.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/570
+- author: Matix0000
+  changes:
+  - message: "Przet\u0142umaczono SPO Ochrony"
+    type: Add
+  id: 9186
+  time: '2026-05-05T12:35:58.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/559
+- author: Zintex
+  changes:
+  - message: 'Aktualizacja reach: m.in. poprawione doki, dodane armory, przebudowany
+      serwis.'
+    type: Tweak
+  id: 9187
+  time: '2026-05-05T12:33:18.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/562
