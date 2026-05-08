@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Nox38
-  changes:
-  - message: Rebalanced Box's armory and increased its max security officers to 7.
-    type: Tweak
-  id: 7882
-  time: '2025-01-31T07:23:03.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34750
 - author: SlamBamActionman
   changes:
   - message: Forcefeeding pills now takes 2 seconds (was 1 second), while eating them
@@ -4073,3 +4066,11 @@
   id: 9189
   time: '2026-05-08T07:20:50.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/575
+- author: Nikita_pl
+  changes:
+  - message: "Zwi\u0119kszono interwal (9 min -> 11 min) oraz zmniejszono prawdopodobie\u0144\
+      stwo spawnowania myszy (50% -> 40%)"
+    type: Tweak
+  id: 9190
+  time: '2026-05-08T09:31:28.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/576
