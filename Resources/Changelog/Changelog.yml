@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: keronshb
-  changes:
-  - message: Added Void's Applause! A Wizard Spell that switches your location with
-      the target.
-    type: Add
-  id: 7881
-  time: '2025-01-31T00:10:36.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34591
 - author: Nox38
   changes:
   - message: Rebalanced Box's armory and increased its max security officers to 7.
@@ -4074,3 +4066,10 @@
   id: 9188
   time: '2026-05-07T18:16:28.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/572
+- author: Zintex
+  changes:
+  - message: "Litery na \u015Bluzach odpowiadaj\u0105ce polskim nazwom"
+    type: Tweak
+  id: 9189
+  time: '2026-05-08T07:20:50.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/575
