@@ -1,12 +1,4 @@
 ﻿Entries:
-- author: SlamBamActionman
-  changes:
-  - message: Forcefeeding pills now takes 2 seconds (was 1 second), while eating them
-      takes 0.6 seconds (was 1 second).
-    type: Tweak
-  id: 7883
-  time: '2025-01-31T11:59:38.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/34764
 - author: themias
   changes:
   - message: Updated sound effects for shutters
@@ -4074,3 +4066,11 @@
   id: 9190
   time: '2026-05-08T09:31:28.0000000+00:00'
   url: https://github.com/polonium14/polonium-station/pull/576
+- author: Szyszkrzyneczka
+  changes:
+  - message: "Myszy g\u0142oduj\u0105 3.3 razy wolniej i maj\u0105 threshold ca\u0142\
+      kowitego nape\u0142nienia zmniejszony z 35 na 30"
+    type: Tweak
+  id: 9191
+  time: '2026-05-08T11:09:39.0000000+00:00'
+  url: https://github.com/polonium14/polonium-station/pull/577
